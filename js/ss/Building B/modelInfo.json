@@ -1,0 +1,142 @@
+[
+  [
+    {
+      "title": "Total errors",
+      "count": "167"
+    },
+    {
+      "title": "Space is not in a properly enclosed region",
+      "count": "148"
+    },
+    {
+      "title": "Elements have duplicate \"Number\" values.",
+      "count": "12"
+    },
+    {
+      "title": "Elements have duplicate \"Mark\" values.",
+      "count": "4"
+    },
+    {
+      "title": "No columns are joined to grid lines, or view parameters exclude all columns.",
+      "count": "1"
+    },
+    {
+      "title": "Highlighted space separation lines overlap. One of them may be ignored when Revit finds space boundaries. Delete one of the lines.",
+      "count": "1"
+    },
+    {
+      "title": "There are identical instances in the same place. This will result in double counting in schedules.",
+      "count": "1"
+    }
+  ],
+  [
+    {
+      "title": "Element is a duplicate at the same location and base level.",
+      "count": "17"
+    },
+    {
+      "title": "There are groups in the model and linked models. All groups shall be ungrouped for final submittals.",
+      "count": "82"
+    }
+  ],
+  [
+    {
+      "title": "Purge",
+      "count": "366"
+    },
+    {
+      "title": "Warnings",
+      "count": "1035"
+    },
+    {
+      "title": "File Size",
+      "count": "70.13 MB"
+    },
+    {
+      "title": "Line Styles",
+      "count": "85"
+    },
+    {
+      "title": "Object Styles",
+      "count": "8"
+    },
+    {
+      "title": "Design Options",
+      "count": "0"
+    },
+    {
+      "title": "Areas / Spaces Schemes",
+      "count": "3"
+    },
+    {
+      "title": "Areas / Spaces Computation",
+      "count": "Areas and Volumes"
+    },
+    {
+      "title": "Project Information",
+      "count": "42"
+    },
+    {
+      "title": "Generic Models",
+      "count": "0"
+    },
+    {
+      "title": "Groups",
+      "count": "82"
+    },
+    {
+      "title": "In-Place Families",
+      "count": "0"
+    },
+    {
+      "title": "Mass Elements",
+      "count": "0"
+    },
+    {
+      "title": "Model Lines",
+      "count": "0"
+    },
+    {
+      "title": "Raster Images",
+      "count": "0"
+    },
+    {
+      "title": "Views Not on Sheets",
+      "count": "54"
+    },
+    {
+      "title": "Views Hidden Elements",
+      "count": "31827"
+    },
+    {
+      "title": "Shared Levels and Grids",
+      "count": "0"
+    },
+    {
+      "title": "Worksets",
+      "count": "44"
+    }
+  ],
+  [
+    {
+      "title": "View has clipping disabled. It causes view to draw too many elements.",
+      "count": "518"
+    },
+    {
+      "title": "A large view has view detail level set to medium or fine. Generation of extraneous details harms performance.",
+      "count": "491"
+    },
+    {
+      "title": "Sketch of element contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "20"
+    },
+    {
+      "title": "Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.",
+      "count": "5"
+    },
+    {
+      "title": "There are duplicate instances of the same family in the same place. Delete duplicate instances to improve performance.",
+      "count": "1"
+    }
+  ]
+]

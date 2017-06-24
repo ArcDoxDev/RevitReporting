@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profiles and Bears, on my!</title>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <script>
+  $( function() {
+    $( ".accordion" ).accordion({
+        heightStyle: "content",
+        collapsible: true, 
+        active: false
+        
+    });
+
+  } );
+  </script>
+
+
+</head>
+
+<body>
+<header>
+    <!-- load a partial piece of code - it cannot access the data given to this page-->
+    <% include partials/nav.ejs %>
+        <!-- ejs if statements are used here to control content, return nothing if no profile is entered-->
+        <% if (fname == undefined) 
+        {%> 
+        <h1> Over view of Model elements</h1> 
+        <% }  else { %>
+        <h1>This is an overview of the model</h1>
+            <!-- access data give to the page-->
+         <h1>   <%= fname.name%> </h1>
+        
+        <% } %>
+
+        <!-- ejs if statements are used here to control content, return nothing if no profile is entered-->
+        <% if (person == undefined) {%> <!--This is a comment - Nothing is passed--> <% } else { %>
+        <!-- return this is there is a profile <--></-->
+        <p><strong>Age: </strong>
+            <%= newData.age %>
+        </p>
+        <p><strong>Job: </strong>
+            <%= newData.job %>
+        </p>
+        <% } %>
+        <!-- ejs if statements are used here to control content-->
+        <p>
+            <% if (person == undefined) {%>No profiles have been input. <br> Append "/name" into url <% } else { %>We are in <%= person %>s profile <% } %>
+        </p>
+        </header>
+        <h2>Model Vitals</h2>
+
+        <a href="/counts"> Link to Count Graphs </a>
+
+        <div class="main">
+        
+            <div class="accordion">
+            
+                
+            <% var count = 0; %>
+            <% info.forEach(function(element) { %>
+                    <h3> <% newtitle = title[count].charAt(0).toUpperCase() + title[count].slice(1) %> <%= newtitle;  %> : Count <%= element.length %></h3>
+                    <div class="detail">
+                <% if (title[count] == "materials"){ %>
+                    <a href="/materials"> Link to all <%= title[count] %></a>
+                <% } else { %>
+                <% } %>
+                    <p>
+                    <% var shorten = element.slice(0, 10); %>
+                        <% shorten.forEach(function(item) { %>
+                            <%= item.name; %> <br>
+                        <% }); count += 1; %>
+                        </p>
+                    </div>
+            <% }); %>
+            </div>
+
+            <br>
+            <div class="accordion"> 
+
+                      
+                <h3> <%= modtitles[0] %></h3>
+
+                    <div class="detail">
+                    <% modreview[0].forEach(function(element) { %>
+                        <p> <%= element.title %> <br>
+                         <%= element.count %> </p>
+                    <% }); %>
+                    </div>
+
+
+                <h3> <%= modtitles[1] %></h3>
+                    <div class="detail">
+                    <% modreview[1].forEach(function(element) { %>
+                        <p> <%= element.title %> <br>
+                         <%= element.count %> </p>
+                    <% }); %>
+                    </div>
+                 <h3> <%= modtitles[2] %></h3>
+                    <div class="detail">
+                    <% modreview[2].forEach(function(element) { %>
+                        <p> <%= element.title %> <br>
+                         <%= element.count %> </p>
+                    <% }); %>
+                    </div>  
+                <h3> <%= modtitles[3] %></h3>
+                    <div class="detail">
+                    <% modreview[3].forEach(function(element) { %>
+                        <p> <%= element.title %> <br>
+                         <%= element.count %> </p>
+                    <% }); %>
+                    </div>
+                <h3> <%= modtitles[4] %></h3>
+                    <div class="detail">
+                        <a href="map">View Location</a>
+                    </div>
+                    
+
+            </div>
+        </div>
+
+</body>
+
+</html>

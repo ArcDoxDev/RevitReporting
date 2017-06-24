@@ -1,0 +1,153 @@
+[
+  [
+    {
+      "title": "Total errors",
+      "count": "9"
+    },
+    {
+      "title": "Actual Number of Risers is different from Desired Number of Risers. Add/remove Risers or change Desired Number of Risers in Stairs Properties.",
+      "count": "5"
+    },
+    {
+      "title": "Highlighted elements are joined but do not intersect.",
+      "count": "3"
+    },
+    {
+      "title": "Area separation line is slightly off axis and may cause inaccuracies.",
+      "count": "1"
+    }
+  ],
+  [
+    {
+      "title": "There are generic model families in the model and linked models.",
+      "count": "42"
+    },
+    {
+      "title": "There are in-place families in the model and linked models.",
+      "count": "2"
+    },
+    {
+      "title": "There are mass elements in the model and linked models.",
+      "count": "4"
+    },
+    {
+      "title": "There are groups in the model and linked models. All groups shall be ungrouped for final submittals.",
+      "count": "82"
+    }
+  ],
+  [
+    {
+      "title": "Purge",
+      "count": "487"
+    },
+    {
+      "title": "Warnings",
+      "count": "36"
+    },
+    {
+      "title": "File Size",
+      "count": "14.57 MB"
+    },
+    {
+      "title": "Line Styles",
+      "count": "18"
+    },
+    {
+      "title": "Object Styles",
+      "count": "8"
+    },
+    {
+      "title": "Design Options",
+      "count": "0"
+    },
+    {
+      "title": "Areas / Spaces Schemes",
+      "count": "2"
+    },
+    {
+      "title": "Areas / Spaces Computation",
+      "count": "Areas Only"
+    },
+    {
+      "title": "Project Information",
+      "count": "15"
+    },
+    {
+      "title": "Generic Models",
+      "count": "42"
+    },
+    {
+      "title": "Groups",
+      "count": "82"
+    },
+    {
+      "title": "In-Place Families",
+      "count": "3"
+    },
+    {
+      "title": "Mass Elements",
+      "count": "6"
+    },
+    {
+      "title": "Model Lines",
+      "count": "0"
+    },
+    {
+      "title": "Raster Images",
+      "count": "1"
+    },
+    {
+      "title": "Views Not on Sheets",
+      "count": "24"
+    },
+    {
+      "title": "Views Hidden Elements",
+      "count": "15"
+    },
+    {
+      "title": "Shared Levels and Grids",
+      "count": "0"
+    },
+    {
+      "title": "Worksets",
+      "count": "0"
+    }
+  ],
+  [
+    {
+      "title": "View has clipping disabled. It causes view to draw too many elements.",
+      "count": "20"
+    },
+    {
+      "title": "A large view has view detail level set to medium or fine. Generation of extraneous details harms performance.",
+      "count": "8"
+    },
+    {
+      "title": "Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.",
+      "count": "4"
+    },
+    {
+      "title": "Project contains unused families and/or types. Consider purging them out.",
+      "count": "1"
+    },
+    {
+      "title": "Sketch of element has large area - it may slow down selection, drawing and geometric computations. Consider breaking sketch into smaller portions, closer to construction conditions.",
+      "count": "1"
+    },
+    {
+      "title": "Sketch of element contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "1"
+    },
+    {
+      "title": "Sketch of Opening Cut contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "1"
+    }
+  ],
+  [
+    {
+      "GoogleAPICall": "https://maps.googleapis.com/maps/api/geocode/json?latlng=51.286190,0.165827&key=AIzaSyDQwrkHdDOFLF8coxgGOr18jqoSP7d2oS8",
+      "lat": "51.286190032959",
+      "long": "0.165827229619026"
+    }
+  ]
+]

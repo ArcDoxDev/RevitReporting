@@ -1,0 +1,69 @@
+        body {
+            background: skyblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #fff;
+            padding: 30px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        
+        h4 {
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        header>p {
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        li {
+            font-size: 16px;
+            text-align: left;
+        }
+        
+        label,
+        input {
+            display: block;
+            align-self: center;
+        }
+        
+        .main {
+            display: flex;
+        }
+        
+        .accordion {
+            /*display: flex;*/
+            width: 50%;
+        }
+        
+        .colHead {
+            text-align: center;
+        }
+        
+        #map {
+            height: 480px;
+            width: 100%;
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .main {
+                display: block;
+            }
+            .accordion {
+                width: 100%
+            }
+        }

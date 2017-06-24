@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+ <% include partials/nav.ejs %>
+
+    <h1 class="address">Location on map</h1>
+    <p></p>
+    <h3>Google Map Location</h3>
+
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: <%= modreview[4][0].lat %>,
+                lng: <%= modreview[4][0].long %>
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD58Q9L0VRa_kSYdEpw4vXmbXWetKkG8Oo&callback=initMap">
+    </script>
+</body>
+    <script>
+        $(document).ready(function() {
+          $.getJSON("<%= modreview[4][0].GoogleAPICall %>", function(json) {
+            var html = "";
+            html += json.results[0].formatted_address
+            $(".address").html(html);
+            });
+        });
+    </script>
+</html>

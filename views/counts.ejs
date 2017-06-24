@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawStuff);
+
+      function drawStuff() {
+        var data = new google.visualization.arrayToDataTable([
+          ['Name', 'Count'],
+          ["<%= title[0] %>", <%= info[0].length %>],
+          ["<%= title[1] %>", <%= info[1].length %>],
+          ["<%= title[2] %>", <%= info[2].length %>],
+          ["<%= title[3] %>", <%= info[3].length %>],
+          ["<%= title[4] %>", <%= info[4].length %>],
+          ["<%= title[5] %>", <%= info[5].length %>],
+          ["<%= title[6] %>", <%= info[6].length %>],
+          ["<%= title[7] %>", <%= info[7].length %>],
+          ["<%= title[8] %>", <%= info[8].length %>],
+          ["<%= title[9] %>", <%= info[9].length %>],
+          ["<%= title[10] %>", <%= info[10].length %>],
+          ["<%= title[11] %>", <%= info[11].length %>],
+          ["<%= title[12] %>", <%= info[12].length %>]
+        ]);
+
+        var options = {
+          title: 'Chess opening moves',
+          width: 800,
+        //   is3D: true,
+        };
+
+        var chartBar = new google.visualization.BarChart(document.getElementById("countBarChart"));
+        var chartPie = new google.visualization.PieChart(document.getElementById('countPieChart'));
+        chartBar.draw(data, options);
+        chartPie.draw(data, options);
+      };
+    </script>
+
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+
+       
+
+</head>
+
+<body>
+ <% include partials/nav.ejs %>
+
+    <h1 class="address">Counts Graphs</h1>
+    <p></p>
+    <h3>Simple chart</h3>
+    <div class="main">
+    
+    <div id="countPieChart" style="width: 900px; height: 900px;"></div>
+    <div id="countBarChart" style="width: 900px; height: 900px;"></div>
+    </div>
+</body>
+
+
+
+</html>

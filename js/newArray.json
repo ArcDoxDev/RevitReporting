@@ -1,0 +1,945 @@
+[
+  [
+    {
+      "type": "6.5mm Bubble",
+      "name": "1"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "1.1"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "10"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "2"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "3"
+    },
+    {
+      "type": "6.5mm Bubble Gap",
+      "name": "4"
+    },
+    {
+      "type": "6.5mm Bubble Gap",
+      "name": "5"
+    },
+    {
+      "type": "6.5mm Bubble Gap",
+      "name": "6"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "7"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "8"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "9"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "A"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "B"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "C"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "D"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "E"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "F"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "F.1"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "G"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "H"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "I"
+    },
+    {
+      "type": "6.5mm Bubble",
+      "name": "J"
+    }
+  ],
+  [
+    {
+      "name": "01 - Entry Level",
+      "type": "8mm Head",
+      "elevation": "0"
+    },
+    {
+      "name": "02 - Floor",
+      "type": "8mm Head",
+      "elevation": "3800.00000000151"
+    },
+    {
+      "name": "03 - Floor",
+      "type": "8mm Head",
+      "elevation": "7599.99999999994"
+    },
+    {
+      "name": "Roof",
+      "type": "8mm Head",
+      "elevation": "11399.9999999999"
+    },
+    {
+      "name": "Parapet",
+      "type": "8mm Head",
+      "elevation": "12000"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "Default"
+    },
+    {
+      "name": "Default Wall"
+    },
+    {
+      "name": "Default Roof"
+    },
+    {
+      "name": "Glass"
+    },
+    {
+      "name": "Phase - Temporary"
+    },
+    {
+      "name": "Masonry - Brick"
+    },
+    {
+      "name": "Masonry - Concrete Block"
+    },
+    {
+      "name": "Metal - Stud Layer"
+    },
+    {
+      "name": "Wood - Sheathing - plywood"
+    },
+    {
+      "name": "Misc. Air Layers - Air Space"
+    },
+    {
+      "name": "Air Barrier - Air Infiltration Barrier"
+    },
+    {
+      "name": "Insulation / Thermal Barriers - Rigid insulation"
+    },
+    {
+      "name": "Vapour / Moisture Barriers - Vapour Retarder"
+    },
+    {
+      "name": "Vapour / Moisture Barriers - Damp-proofing"
+    },
+    {
+      "name": "Plasterboard"
+    },
+    {
+      "name": "Insulation / Thermal Barriers - Cavity Fill"
+    },
+    {
+      "name": "Site - Earth"
+    },
+    {
+      "name": "Site - Grass"
+    },
+    {
+      "name": "Site - Tarmacadam"
+    },
+    {
+      "name": "Site - Sand"
+    },
+    {
+      "name": "Concrete - Cast In Situ"
+    },
+    {
+      "name": "Masonry - Glass Block"
+    },
+    {
+      "name": "Masonry - Stone"
+    },
+    {
+      "name": "Masonry - Tile"
+    },
+    {
+      "name": "Metal - Panel"
+    },
+    {
+      "name": "Metal - Trim"
+    },
+    {
+      "name": "Metal - Decking"
+    },
+    {
+      "name": "Metal - Sheet / Flashing"
+    },
+    {
+      "name": "Roofing - Metal"
+    },
+    {
+      "name": "Metal - Steel"
+    },
+    {
+      "name": "Metal - Aluminium"
+    },
+    {
+      "name": "Metal - Firring"
+    },
+    {
+      "name": "Wood - Stud Layer"
+    },
+    {
+      "name": "Wood - Sheathing - Chipboard"
+    },
+    {
+      "name": "Wood - Veneers"
+    },
+    {
+      "name": "Wood - Flooring"
+    },
+    {
+      "name": "Wood - Timber"
+    },
+    {
+      "name": "Wood - Laminated"
+    },
+    {
+      "name": "Wood - Firring"
+    },
+    {
+      "name": "Plastic - GRP - Glass Reinforced Plastic"
+    },
+    {
+      "name": "Plastic - Formed Plastic"
+    },
+    {
+      "name": "Plastic - Vinyl Cove Base"
+    },
+    {
+      "name": "GRC -  Glass Reinforced Concrete"
+    },
+    {
+      "name": "EIFS - Exterior Insulation and Finish System"
+    },
+    {
+      "name": "Precast Concrete Panels"
+    },
+    {
+      "name": "Metal Panel"
+    },
+    {
+      "name": "Roofing"
+    },
+    {
+      "name": "Misc. Air Layers - Air Film - Outside Surface"
+    },
+    {
+      "name": "Misc. Air Layers - Air Film - Inside Surface"
+    },
+    {
+      "name": "Insulation / Thermal Barriers - Batt insulation"
+    },
+    {
+      "name": "Insulation / Thermal Barriers - Semi-rigid insulation"
+    },
+    {
+      "name": "Insulation / Thermal Barriers - External Wall Insulation"
+    },
+    {
+      "name": "Insulation / Thermal Barriers - Radient Heat Barrier"
+    },
+    {
+      "name": "Wood - MDF, Medium Density Fibreboard"
+    },
+    {
+      "name": "Metal - Copper"
+    },
+    {
+      "name": "Metal - Lead"
+    },
+    {
+      "name": "Default Floor"
+    },
+    {
+      "name": "Structure - Timber Joist/Rafter Layer"
+    },
+    {
+      "name": "Structure - Timber Truss Joist/Rafter Layer"
+    },
+    {
+      "name": "Structure - Steel Bar Joist Layer"
+    },
+    {
+      "name": "Structure - Light Gauge Steel Joist Layer"
+    },
+    {
+      "name": "Roofing - EPDM Membrane"
+    },
+    {
+      "name": "Concrete - Cast in Situ Lightweight"
+    },
+    {
+      "name": "VCT - Vinyl Composition Tile"
+    },
+    {
+      "name": "Ceramic Tile"
+    },
+    {
+      "name": "Concrete - Sand/Cement Screed"
+    },
+    {
+      "name": "Roofing - Tile"
+    },
+    {
+      "name": "Roofing - Slate"
+    },
+    {
+      "name": "Roofing - Asphalt"
+    },
+    {
+      "name": "Structure - Precast Concrete Beams"
+    },
+    {
+      "name": "Site - Hardcore"
+    },
+    {
+      "name": "Roofing - Felt"
+    },
+    {
+      "name": "Wall Material (1)"
+    },
+    {
+      "name": "Ceiling Tile 600 x 1200"
+    },
+    {
+      "name": "Ceiling Tile 600 x 600"
+    },
+    {
+      "name": "Phase - New"
+    },
+    {
+      "name": "Site - Water"
+    },
+    {
+      "name": "Door - Panel"
+    },
+    {
+      "name": "Door - Moulding"
+    },
+    {
+      "name": "Laminate - Ivory, Matte"
+    },
+    {
+      "name": "Wood - Cherry"
+    },
+    {
+      "name": "Metal - Chrome"
+    },
+    {
+      "name": "Sash"
+    },
+    {
+      "name": "Glazing - Curtain Wall Glazing"
+    },
+    {
+      "name": "Metal - Paint Finish - Ivory, Matte"
+    },
+    {
+      "name": "Parking Stripe"
+    },
+    {
+      "name": "Metal - Paint Finish - Dark Gray, Matte"
+    },
+    {
+      "name": "Door - Frame/Mullion"
+    },
+    {
+      "name": "Door - Handle"
+    },
+    {
+      "name": "Masonry - Brick Soldier Course"
+    },
+    {
+      "name": "Render - Tan, Textured"
+    },
+    {
+      "name": "Render - Beige, Smooth"
+    },
+    {
+      "name": "Carpet"
+    },
+    {
+      "name": "Door - Frame"
+    },
+    {
+      "name": "Door - Frame/Mullion (1)"
+    },
+    {
+      "name": "Default Mass"
+    },
+    {
+      "name": "Default Zoning Envelope"
+    },
+    {
+      "name": "Poche"
+    },
+    {
+      "name": "Default Mass Floor"
+    },
+    {
+      "name": "Metal - Steel - 345 MPa"
+    },
+    {
+      "name": "Asphalt"
+    },
+    {
+      "name": "Carpet (2)"
+    },
+    {
+      "name": "Concrete"
+    },
+    {
+      "name": "Fabric"
+    },
+    {
+      "name": "Generic"
+    },
+    {
+      "name": "Plant"
+    },
+    {
+      "name": "Liquid"
+    },
+    {
+      "name": "Masonry"
+    },
+    {
+      "name": "Metal"
+    },
+    {
+      "name": "Paint"
+    },
+    {
+      "name": "Paper"
+    },
+    {
+      "name": "Plastic"
+    },
+    {
+      "name": "Stone (2)"
+    },
+    {
+      "name": "Tile (4)"
+    },
+    {
+      "name": "Vinyl"
+    },
+    {
+      "name": "Wood"
+    },
+    {
+      "name": "Default Light Source"
+    },
+    {
+      "name": "Render Material 255-255-255"
+    },
+    {
+      "name": "Render Material 0-0-255"
+    },
+    {
+      "name": "Render Material 0-255-255"
+    },
+    {
+      "name": "Render Material 0-255-0"
+    },
+    {
+      "name": "Render Material 255-255-0"
+    },
+    {
+      "name": "Render Material 255-0-255"
+    },
+    {
+      "name": "Render Material 255-0-0"
+    },
+    {
+      "name": "Phase-Demo"
+    },
+    {
+      "name": "Phase-Exist"
+    },
+    {
+      "name": "Phase-Temp"
+    },
+    {
+      "name": "Concrete - Cast-in-Place Concrete"
+    },
+    {
+      "name": "Metal - Paint Finish - Paint Cafe Matte"
+    },
+    {
+      "name": "Wood - Pine"
+    },
+    {
+      "name": "Laminate - Linen, Matte"
+    },
+    {
+      "name": "Textile - Bamboo Weave"
+    },
+    {
+      "name": "Metal - Aluminum"
+    },
+    {
+      "name": "Stone - Granite"
+    },
+    {
+      "name": "Phase - Demo"
+    },
+    {
+      "name": "Phase - Exist"
+    },
+    {
+      "name": "SHADE SUPPORT"
+    },
+    {
+      "name": "Metal - Sunscreen"
+    },
+    {
+      "name": "Metal - Steel - ASTM A992"
+    },
+    {
+      "name": "Concrete - Precast Concrete - 35 MPa"
+    },
+    {
+      "name": "Metal - Aluminium, Black-Anodized"
+    },
+    {
+      "name": "Paint - White Matte"
+    },
+    {
+      "name": "Ceramic - Tan"
+    },
+    {
+      "name": "Concrete - Precast Concrete"
+    },
+    {
+      "name": "Carpet (1)"
+    },
+    {
+      "name": "Plastic - Dark Maroon, Smooth"
+    },
+    {
+      "name": "Leather - Brown, Pebble"
+    },
+    {
+      "name": "Chrome"
+    },
+    {
+      "name": "Black, Glossy"
+    },
+    {
+      "name": "Wood - Birch"
+    },
+    {
+      "name": "Shade - Beige, texture"
+    },
+    {
+      "name": "Metal - Bronze"
+    },
+    {
+      "name": "Leather - Tan"
+    },
+    {
+      "name": "Paint - Golden Wheat"
+    },
+    {
+      "name": "Paint - Maroon Glossy"
+    },
+    {
+      "name": "Gypsum Wall Board"
+    },
+    {
+      "name": "Glass - White, High Luminance"
+    },
+    {
+      "name": "Metal - Paint Finish - Ivory, Glossy"
+    },
+    {
+      "name": "Glass - Clear Light"
+    },
+    {
+      "name": "Fabric - Mesh"
+    },
+    {
+      "name": "Carbon Steel"
+    },
+    {
+      "name": "Copper"
+    },
+    {
+      "name": "Ductile Iron"
+    },
+    {
+      "name": "Stainless Steel"
+    },
+    {
+      "name": "Analytical Floor Surface"
+    },
+    {
+      "name": "Analytical Slab Surface"
+    },
+    {
+      "name": "Analytical Wall Surface"
+    },
+    {
+      "name": "Dynamo"
+    },
+    {
+      "name": "DynamoError"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "Roofing Detail.dwg"
+    }
+  ],
+  [
+    {
+      "name": "Text"
+    },
+    {
+      "name": "Wide"
+    },
+    {
+      "name": "Thin"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "DEFPOINTS"
+    },
+    {
+      "name": "Medium"
+    },
+    {
+      "name": "Hidden"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "Existing"
+    },
+    {
+      "name": "New Construction"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "Vest. 101"
+    },
+    {
+      "name": "Lobby 102"
+    },
+    {
+      "name": "Cafeteria 121"
+    },
+    {
+      "name": "Prep/Dish 122"
+    },
+    {
+      "name": "Dry Storage 124"
+    },
+    {
+      "name": "Electrical 125"
+    },
+    {
+      "name": "Conference 123"
+    },
+    {
+      "name": "Office 127"
+    },
+    {
+      "name": "Admin 126"
+    },
+    {
+      "name": "Storage 128"
+    },
+    {
+      "name": "Toilet 129"
+    },
+    {
+      "name": "Stair 130"
+    },
+    {
+      "name": "Corridor 131"
+    },
+    {
+      "name": "Sprinkler 119"
+    },
+    {
+      "name": "Electrical 118"
+    },
+    {
+      "name": "Instruction 117"
+    },
+    {
+      "name": "Lounge 120"
+    },
+    {
+      "name": "Conference 116"
+    },
+    {
+      "name": "Instruction 115"
+    },
+    {
+      "name": "Stair 114"
+    },
+    {
+      "name": "Electrical 112"
+    },
+    {
+      "name": "Lounge 111"
+    },
+    {
+      "name": "Men 110"
+    },
+    {
+      "name": "Women 109"
+    },
+    {
+      "name": "Corridor 107"
+    },
+    {
+      "name": "Instruction 108"
+    },
+    {
+      "name": "Instruction 106"
+    },
+    {
+      "name": "Instruction 105"
+    },
+    {
+      "name": "Instruction 104"
+    },
+    {
+      "name": "Conference 103"
+    },
+    {
+      "name": "Stair 132"
+    },
+    {
+      "name": "Stair 201"
+    },
+    {
+      "name": "Instruction 202"
+    },
+    {
+      "name": "Computer Lab 203"
+    },
+    {
+      "name": "Instruction 204"
+    },
+    {
+      "name": "Instruction 205"
+    },
+    {
+      "name": "Corridor 235"
+    },
+    {
+      "name": "Men 210"
+    },
+    {
+      "name": "Women 211"
+    },
+    {
+      "name": "Lounge 212"
+    },
+    {
+      "name": "Electrical 214"
+    },
+    {
+      "name": "Lobby 216"
+    },
+    {
+      "name": "Stair 217"
+    },
+    {
+      "name": "Instruction 218"
+    },
+    {
+      "name": "Library 219"
+    },
+    {
+      "name": "Electrical 220"
+    },
+    {
+      "name": "Instruction 221"
+    },
+    {
+      "name": "Computer Lab 222"
+    },
+    {
+      "name": "Lounge 223"
+    },
+    {
+      "name": "Caferteria 224"
+    },
+    {
+      "name": "Women 225"
+    },
+    {
+      "name": "Men 226"
+    },
+    {
+      "name": "Electrical 227"
+    },
+    {
+      "name": "Copy/Print 228"
+    },
+    {
+      "name": "Administration 229"
+    },
+    {
+      "name": "Office 230"
+    },
+    {
+      "name": "Office 231"
+    },
+    {
+      "name": "Toilet 232"
+    },
+    {
+      "name": "Stair 233"
+    },
+    {
+      "name": "Corridor 234"
+    },
+    {
+      "name": "Stair 301"
+    },
+    {
+      "name": "Instruction 302"
+    },
+    {
+      "name": "Instruction 303"
+    },
+    {
+      "name": "Instruction 304"
+    },
+    {
+      "name": "Instruction 305"
+    },
+    {
+      "name": "Instruction 306"
+    },
+    {
+      "name": "Men 307"
+    },
+    {
+      "name": "Women 308"
+    },
+    {
+      "name": "Lounge 309"
+    },
+    {
+      "name": "Electrical 310"
+    },
+    {
+      "name": "Stair 312"
+    },
+    {
+      "name": "Instruction 313"
+    },
+    {
+      "name": "Instruction 314"
+    },
+    {
+      "name": "Instruction 315"
+    },
+    {
+      "name": "Storage 316"
+    },
+    {
+      "name": "Electrical 317"
+    },
+    {
+      "name": "Lobby 318"
+    },
+    {
+      "name": "Media Review 319"
+    },
+    {
+      "name": "Media Review 320"
+    },
+    {
+      "name": "Open Office 321"
+    },
+    {
+      "name": "Administration 322"
+    },
+    {
+      "name": "Electrical 323"
+    },
+    {
+      "name": "Advisors 324"
+    },
+    {
+      "name": "Conference 325"
+    },
+    {
+      "name": "Toilet 326"
+    },
+    {
+      "name": "Stair 327"
+    },
+    {
+      "name": "Corridor 328"
+    },
+    {
+      "name": "Lounge 206"
+    },
+    {
+      "name": "Copy/Print 207"
+    },
+    {
+      "name": "Drafting 208"
+    },
+    {
+      "name": "Computer Lab 209"
+    }
+  ],
+  [],
+  []
+]

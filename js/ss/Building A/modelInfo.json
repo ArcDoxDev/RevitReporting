@@ -1,0 +1,1294 @@
+[
+  [
+    {
+      "title": "Total errors",
+      "count": "1015"
+    },
+    {
+      "title": "No Loss Defined",
+      "count": "524"
+    },
+    {
+      "title": "Space is not in a properly enclosed region",
+      "count": "115"
+    },
+    {
+      "title": "Elements have duplicate 'Mark' values.",
+      "count": "59"
+    },
+    {
+      "title": "SOILS",
+      "count": "28"
+    },
+    {
+      "title": "There are identical instances in the same place. This will result in double counting in schedules.",
+      "count": "3"
+    },
+    {
+      "title": "LPHW RETURN 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 33: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 35: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW RETURN 20 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 44: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 49: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 30: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 118: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 25: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 42: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW RETURN 11 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Return 2: It is not possible to calculate the flow since all the components in this system have the flow configuration set to Preset or System. At least one component is required to have the flow configuration set to Calculated.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 13: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 13: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 25: It is not possible to calculate the flow since all the components in this system have the flow configuration set to Preset or System. At least one component is required to have the flow configuration set to Calculated.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 36: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "MWS 31: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "MWS 2: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 13: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 33: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 27: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 41: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 48: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Domestic Hot Water 25 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 48: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in MWS 46 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW FLOW 2 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Domestic Cold Water 4 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 28: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 19: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 19: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 39: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 31: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 46: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in EA 2 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 11: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 22: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 38: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 27: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 51: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in MWS 40 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "RA 22: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 17: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 36: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 22: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW RETURN 3 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 37: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 37: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in GAS 2 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "The flex duct length of 1316.1 exceeds the maximum specified length of 800.0",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 24: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 29: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Domestic Hot Water 35 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 16: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CHILLED Return 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in SOILS",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 30: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW RETURN 4 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 42: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 28: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in SUPPLY 9 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 52: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Domestic Hot Water 38 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 26: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 23: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 17: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 28: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 32: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 19: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Return 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 16: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW FLOW 7 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "RA 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 2: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Return 11: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 40: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 11: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 19: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 11: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 17: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 2: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Return 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 29: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 31: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 26: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CHILLED Return 2: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 43: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 19: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 19: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 16: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 30: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW FLOW 17 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "MWS 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "The flex duct length of 1859.7 exceeds the maximum specified length of 800.0",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW FLOW 3 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Hydronic Supply 26 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 42: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "The flex duct length of 816.3 exceeds the maximum specified length of 800.0",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 103: It is not possible to calculate the flow since all the components in this system have the flow configuration set to Preset or System. At least one component is required to have the flow configuration set to Calculated.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 35: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 27: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 20: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW RETURN 2 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 24: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 119: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "The flex duct length of 1082.3 exceeds the maximum specified length of 1000.0",
+      "count": "1"
+    },
+    {
+      "title": "Other 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 19: It is not possible to calculate the flow since all the components in this system have the flow configuration set to Preset or System. At least one component is required to have the flow configuration set to Calculated.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 25: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 23: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in SUPPLY 4 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Domestic Hot Water 24 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 26: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 34: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 11: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 24: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Library Supply are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in EA 1 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 35: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 25: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 11: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 28: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Cold Water 2: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 45: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 31: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 22: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 2: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in RA 2 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in RETURN 6 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in SUPPLY 5 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Other 24: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 47: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 23: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 27: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Central Fresh Air Return are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 25: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 13: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 18: It is not possible to calculate the flow since all the components in this system have the flow configuration set to Preset or System. At least one component is required to have the flow configuration set to Calculated.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 27: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "The flex duct length of 1059.4 exceeds the maximum specified length of 1000.0",
+      "count": "1"
+    },
+    {
+      "title": "Other 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 22: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 37: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in SA 4 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 26: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 61: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 15: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 4: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW FLOW 8 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Return 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 43: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 16: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 13: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 26: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "MWS 3: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 36: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 23: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in LPHW FLOW 9 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "Other 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 24: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 34: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 37: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "RA 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 13: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 5: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 33: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 38: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 22: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 1: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 28: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 25: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 34: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 34: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 12: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "SA 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW FLOW 39: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "GAS 10: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 21: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 29: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 7: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 6: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Other 8: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Elements in Domestic Hot Water 41 are not connected in a single physical network due to one or both of the following: - There are disconnects in the system's physical network. - Elements in the system are connected to more than one physical network.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 39: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 27: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 9: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 18: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "CWS 17: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Hydronic Supply 14: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "Domestic Hot Water 39: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "MWS 29: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "LPHW RETURN 59: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    },
+    {
+      "title": "EA 28: It is not possible to calculate the flow since the flow direction mismatch. Please check flow direction on all equipment in this system.",
+      "count": "1"
+    }
+  ],
+  [
+    {
+      "title": "There are generic model families in the model and linked models.",
+      "count": "74"
+    },
+    {
+      "title": "There are groups in the model and linked models. All groups shall be ungrouped for final submittals.",
+      "count": "10"
+    },
+    {
+      "title": "Element is a duplicate at the same location and base level.",
+      "count": "1"
+    }
+  ],
+  [
+    {
+      "title": "Purge",
+      "count": "378"
+    },
+    {
+      "title": "Warnings",
+      "count": "195"
+    },
+    {
+      "title": "File Size",
+      "count": "180.96 MB"
+    },
+    {
+      "title": "Line Styles",
+      "count": "62"
+    },
+    {
+      "title": "Object Styles",
+      "count": "77"
+    },
+    {
+      "title": "Design Options",
+      "count": "0"
+    },
+    {
+      "title": "Areas / Spaces Schemes",
+      "count": "3"
+    },
+    {
+      "title": "Areas / Spaces Computation",
+      "count": "Areas and Volumes"
+    },
+    {
+      "title": "Project Information",
+      "count": "42"
+    },
+    {
+      "title": "Generic Models",
+      "count": "74"
+    },
+    {
+      "title": "Groups",
+      "count": "10"
+    },
+    {
+      "title": "In-Place Families",
+      "count": "0"
+    },
+    {
+      "title": "Mass Elements",
+      "count": "0"
+    },
+    {
+      "title": "Model Lines",
+      "count": "0"
+    },
+    {
+      "title": "Raster Images",
+      "count": "8"
+    },
+    {
+      "title": "Views Not on Sheets",
+      "count": "67"
+    },
+    {
+      "title": "Views Hidden Elements",
+      "count": "2400"
+    },
+    {
+      "title": "Shared Levels and Grids",
+      "count": "0"
+    },
+    {
+      "title": "Worksets",
+      "count": "6"
+    }
+  ],
+  [
+    {
+      "title": "View has clipping disabled. It causes view to draw too many elements.",
+      "count": "112"
+    },
+    {
+      "title": "A large view has view detail level set to medium or fine. Generation of extraneous details harms performance.",
+      "count": "67"
+    },
+    {
+      "title": "Family occupies 3959 kilobytes of memory. Consider simplification of the family.",
+      "count": "6"
+    },
+    {
+      "title": "Family occupies 3958 kilobytes of memory. Consider simplification of the family.",
+      "count": "4"
+    },
+    {
+      "title": "There are duplicate instances of the same family in the same place. Delete duplicate instances to improve performance.",
+      "count": "3"
+    },
+    {
+      "title": "Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.",
+      "count": "2"
+    },
+    {
+      "title": "Sketch of element contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "1"
+    }
+  ]
+]

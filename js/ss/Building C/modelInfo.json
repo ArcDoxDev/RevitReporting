@@ -1,0 +1,250 @@
+[
+  [
+    {
+      "title": "Total errors",
+      "count": "474"
+    },
+    {
+      "title": "Highlighted lines overlap. Lines may not form closed loops.",
+      "count": "146"
+    },
+    {
+      "title": "Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other.",
+      "count": "137"
+    },
+    {
+      "title": "Highlighted walls overlap. One of them may be ignored when Revit finds room boundaries. Use Cut Geometry to embed one wall within the other or tab-select one of the grouped overlapping walls and exclude it from the group instance.",
+      "count": "94"
+    },
+    {
+      "title": "Multiple Areas are in the same enclosed region.  The correct area and perimeter will be assigned to one Area and the others will display \"Redundant Area.\"  You should separate the regions, delete the extra Areas, or move them into different regions.",
+      "count": "17"
+    },
+    {
+      "title": "Elements have duplicate \"Number\" values.",
+      "count": "12"
+    },
+    {
+      "title": "Elements have duplicate \"Mark\" values.",
+      "count": "11"
+    },
+    {
+      "title": "Area is not in a properly enclosed region",
+      "count": "10"
+    },
+    {
+      "title": "Insert conflicts with joined Wall.",
+      "count": "9"
+    },
+    {
+      "title": "Highlighted elements are joined but do not intersect.",
+      "count": "6"
+    },
+    {
+      "title": "Two elements were not automatically joined because one or both is not editable.",
+      "count": "5"
+    },
+    {
+      "title": "Multiple Rooms are in the same enclosed region.  The correct area and perimeter will be assigned to one Room and the others will display \"Redundant Room.\"  You should separate the regions, delete the extra Rooms, or move them into different regions.",
+      "count": "5"
+    },
+    {
+      "title": "Top reference is below Bottom reference for one or more Balusters. These Balusters are not created.",
+      "count": "3"
+    },
+    {
+      "title": "Instance of in-place family is not cutting host.",
+      "count": "2"
+    },
+    {
+      "title": "The rail is not continuous.  Breaks in the rail usually occur at sharply-angled transitions. To fix the problem, try:  - Changing the transition style in the rail type properties, or  - Modifying the railing path at the transition.",
+      "count": "2"
+    },
+    {
+      "title": "Line in Massing Sketch is slightly off axis and may cause inaccuracies.",
+      "count": "2"
+    },
+    {
+      "title": "A wall and a room separation line overlap. One of them may be ignored when Revit finds room boundaries. Shorten or delete the room separation line to remove the overlap.",
+      "count": "2"
+    },
+    {
+      "title": "Line in Sketch is slightly off axis and may cause inaccuracies.",
+      "count": "2"
+    },
+    {
+      "title": "Could not create integral wall sweep for wall instance. All the segments are of zero length.",
+      "count": "1"
+    },
+    {
+      "title": "Room separation line is slightly off axis and may cause inaccuracies.",
+      "count": "1"
+    },
+    {
+      "title": "The slope of this railing may not parallel the stairs at runs and landings.  To get a parallel railing, split the railing sketch at the ends of landings.",
+      "count": "1"
+    },
+    {
+      "title": "Elements have duplicate \"Type Mark\" values.",
+      "count": "1"
+    },
+    {
+      "title": "Room Tag is outside of its Room.  Enable Leader or move Room Tag within its Room.",
+      "count": "1"
+    },
+    {
+      "title": "Stair components are not continuously connected. This may cause incorrect representation and annotation.",
+      "count": "1"
+    },
+    {
+      "title": "Line is slightly off axis and may cause inaccuracies.",
+      "count": "1"
+    },
+    {
+      "title": "Ref Plane is slightly off axis and may cause inaccuracies.",
+      "count": "1"
+    },
+    {
+      "title": "A notch join can only be used when the run end tread is coplanar with the landing tread. Clear the Begin with Riser or End with Riser instance property for the run to use the notch join.",
+      "count": "1"
+    }
+  ],
+  [
+    {
+      "title": "There are in-place families in the model and linked models.",
+      "count": "18"
+    },
+    {
+      "title": "There are generic model families in the model and linked models.",
+      "count": "149"
+    },
+    {
+      "title": "There are groups in the model and linked models. All groups shall be ungrouped for final submittals.",
+      "count": "561"
+    }
+  ],
+  [
+    {
+      "title": "Purge",
+      "count": "649"
+    },
+    {
+      "title": "Warnings",
+      "count": "490"
+    },
+    {
+      "title": "File Size",
+      "count": "125.96 MB"
+    },
+    {
+      "title": "Line Styles",
+      "count": "110"
+    },
+    {
+      "title": "Object Styles",
+      "count": "749"
+    },
+    {
+      "title": "Design Options",
+      "count": "0"
+    },
+    {
+      "title": "Areas / Spaces Schemes",
+      "count": "14"
+    },
+    {
+      "title": "Areas / Spaces Computation",
+      "count": "Areas and Volumes"
+    },
+    {
+      "title": "Project Information",
+      "count": "46"
+    },
+    {
+      "title": "Generic Models",
+      "count": "149"
+    },
+    {
+      "title": "Groups",
+      "count": "561"
+    },
+    {
+      "title": "In-Place Families",
+      "count": "19"
+    },
+    {
+      "title": "Mass Elements",
+      "count": "4"
+    },
+    {
+      "title": "Model Lines",
+      "count": "50"
+    },
+    {
+      "title": "Raster Images",
+      "count": "9"
+    },
+    {
+      "title": "Views Not on Sheets",
+      "count": "53"
+    },
+    {
+      "title": "Views Hidden Elements",
+      "count": "7595"
+    },
+    {
+      "title": "Shared Levels and Grids",
+      "count": "0"
+    },
+    {
+      "title": "Worksets",
+      "count": "0"
+    }
+  ],
+  [
+    {
+      "title": "Walls overlap. Consider embedding walls, editing their extents or profile to avoid overlapping.",
+      "count": "231"
+    },
+    {
+      "title": "View has clipping disabled. It causes view to draw too many elements.",
+      "count": "107"
+    },
+    {
+      "title": "A large view has view detail level set to medium or fine. Generation of extraneous details harms performance.",
+      "count": "51"
+    },
+    {
+      "title": "Sketch of element contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "45"
+    },
+    {
+      "title": "Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.",
+      "count": "41"
+    },
+    {
+      "title": "In-place family contains multiple disjoined solids. Consider splitting in several in-place families.",
+      "count": "5"
+    },
+    {
+      "title": "Sketch of Detail Filled Region contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "5"
+    },
+    {
+      "title": "Room separation line is not joined, might cause performance issue with room boundaries computations.",
+      "count": "2"
+    },
+    {
+      "title": "Project contains unused families and/or types. Consider purging them out.",
+      "count": "1"
+    },
+    {
+      "title": "Sketch of Opening Cut contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "1"
+    },
+    {
+      "title": "Sketch of Masking Region contains multiple independent loops - splitting it in few independent elements might improve performance.",
+      "count": "1"
+    }
+  ]
+]

@@ -1,0 +1,990 @@
+[
+  [],
+  [
+    {
+      "name": "Ground Floor Plan",
+      "type": "ArcDox Level Head",
+      "elevation": "14350.0000000005"
+    },
+    {
+      "name": "First Floor Plan",
+      "type": "ArcDox Level Head",
+      "elevation": "18350.0000000005"
+    },
+    {
+      "name": "Second Floor Plan (working)",
+      "type": "ArcDox Level Head",
+      "elevation": "22400"
+    },
+    {
+      "name": "Third Floor Plan (working)",
+      "type": "ArcDox Level Head",
+      "elevation": "26450"
+    },
+    {
+      "name": "Fourth Floor Plan (working)",
+      "type": "ArcDox Level Head",
+      "elevation": "30500"
+    },
+    {
+      "name": "Roof Plan Level",
+      "type": "ArcDox Level Head",
+      "elevation": "34700"
+    },
+    {
+      "name": "First Floor Slab",
+      "type": "ArcDox Level Head",
+      "elevation": "17900.0000000004"
+    },
+    {
+      "name": "Second Floor Slab",
+      "type": "ArcDox Level Head",
+      "elevation": "22100"
+    },
+    {
+      "name": "Third Floor Slab",
+      "type": "ArcDox Level Head",
+      "elevation": "26150"
+    }
+  ],
+  [
+    {
+      "name": "Workset1"
+    },
+    {
+      "name": "Shared Levels and Grids"
+    },
+    {
+      "name": "ELV Tray"
+    },
+    {
+      "name": "LV Tray"
+    },
+    {
+      "name": "LV Trunking"
+    },
+    {
+      "name": "FA Tray"
+    },
+    {
+      "name": "Mechanical Linked Model Old 09.09.2016"
+    },
+    {
+      "name": "Electrical Updated Model Link"
+    },
+    {
+      "name": "Electrical Items Removed 11.01.2016"
+    },
+    {
+      "name": "68-Elec Protective JVT Heat Detector"
+    },
+    {
+      "name": "68-Elec Protective JVT Fire Alarm Sounder"
+    },
+    {
+      "name": "68-Elec Protective JVT Manual Call Point"
+    },
+    {
+      "name": "68-Elec Protective JVT Fire Alarm Smoke Detector"
+    },
+    {
+      "name": "68-Elec Protective JVT Aspirating Detection & Sampling"
+    },
+    {
+      "name": "68-Elec Protective "
+    },
+    {
+      "name": "63-Elec Lighting"
+    },
+    {
+      "name": "63-Elec Lighting (Devices)"
+    },
+    {
+      "name": "67-Security Devices"
+    },
+    {
+      "name": "67-Security Devices (Nurse Call Devices)"
+    },
+    {
+      "name": "64-Elec Communications (Twin Data Outlet)"
+    },
+    {
+      "name": "64-Elec Communications"
+    },
+    {
+      "name": "Raised Floor Access Model"
+    },
+    {
+      "name": "56-M/E"
+    },
+    {
+      "name": "PEL Containment Brackets (Hanging)"
+    },
+    {
+      "name": "Structural Model Old Version"
+    },
+    {
+      "name": "Mechanical Model Old 19.02.2016"
+    },
+    {
+      "name": "Aspirating Detection"
+    },
+    {
+      "name": "Rain Water Model Replaced 05.04.2016"
+    },
+    {
+      "name": "Rain Water Drainage Model"
+    },
+    {
+      "name": "Architectural Model Link Dimensions"
+    },
+    {
+      "name": "Architectural Model 11.04.2016"
+    },
+    {
+      "name": "Mechanical Model"
+    },
+    {
+      "name": "Mechanical Model 20.09.2016"
+    },
+    {
+      "name": "Architectural Site Model"
+    },
+    {
+      "name": "As Built - External Lighting"
+    },
+    {
+      "name": "Mechanical Model 20.12.2016"
+    },
+    {
+      "name": "As Builts - Data Communications Installed"
+    },
+    {
+      "name": "As Built - Protective Services Installed"
+    },
+    {
+      "name": "As Builts - General Services"
+    },
+    {
+      "name": "As Builts - Mechanical Equipment"
+    },
+    {
+      "name": "As Builts - Security Equipment Installed"
+    },
+    {
+      "name": "As Built - External Security"
+    },
+    {
+      "name": "Architectural Model 17.01.2017"
+    },
+    {
+      "name": "Architectural Model Old 17.01.2017"
+    }
+  ],
+  [
+    {
+      "name": "Default"
+    },
+    {
+      "name": "Default Wall"
+    },
+    {
+      "name": "Default Roof"
+    },
+    {
+      "name": "Glass"
+    },
+    {
+      "name": "Phase-Demo"
+    },
+    {
+      "name": "Phase-Exist"
+    },
+    {
+      "name": "Phase-Temp"
+    },
+    {
+      "name": "Poche"
+    },
+    {
+      "name": "Default Light Source"
+    },
+    {
+      "name": "Copper"
+    },
+    {
+      "name": "Iron, Ductile"
+    },
+    {
+      "name": "Polyvinyl Chloride, Rigid"
+    },
+    {
+      "name": "Stainless Steel"
+    },
+    {
+      "name": "Steel, Carbon"
+    },
+    {
+      "name": "Phase - Demo"
+    },
+    {
+      "name": "Phase - Exist"
+    },
+    {
+      "name": "Phase - Temporary"
+    },
+    {
+      "name": "Default Form"
+    },
+    {
+      "name": "Site - Earth"
+    },
+    {
+      "name": "Concrete - Cast In Situ"
+    },
+    {
+      "name": "Default Floor"
+    },
+    {
+      "name": "Door - Handle"
+    },
+    {
+      "name": "Default Floor Area Face"
+    },
+    {
+      "name": "Insulation - Phenolic Foam"
+    },
+    {
+      "name": "Lining - Fiberglass Board"
+    },
+    {
+      "name": "Render Material 255-255-255"
+    },
+    {
+      "name": "Metal - Aluminium"
+    },
+    {
+      "name": "Render Material 0-191-255"
+    },
+    {
+      "name": "Insulation - Rigid Fiber Board"
+    },
+    {
+      "name": "Metal-WATTS-Cast Iron-Epoxy Coated"
+    },
+    {
+      "name": "Plastic"
+    },
+    {
+      "name": "Glass - Frosted"
+    },
+    {
+      "name": "Metal - Vicon - Aluminum"
+    },
+    {
+      "name": "Plastic - Vicon - Plastic - Smoked Polycarbonate"
+    },
+    {
+      "name": "Metal - Vicon - Cast Aluminum - White"
+    },
+    {
+      "name": "Metal - Vicon - Aluminum - Diecast"
+    },
+    {
+      "name": "Glass - Vicon - Camera Lens"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Normal\\Peach"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Normal\\Tan"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Normal\\Brown, dark"
+    },
+    {
+      "name": "Glass - Cooper Industries - Clear"
+    },
+    {
+      "name": "Metal - Vicon - Aluminum - Black - Graphite"
+    },
+    {
+      "name": "Plastic Gray Smooth"
+    },
+    {
+      "name": "Access Clearance"
+    },
+    {
+      "name": "Metal - Steel"
+    },
+    {
+      "name": "Carbon Steel"
+    },
+    {
+      "name": "Ductile Iron"
+    },
+    {
+      "name": "Default Ceiling"
+    },
+    {
+      "name": "Ivory Gloss"
+    },
+    {
+      "name": "Powder Coated White"
+    },
+    {
+      "name": "Green Plastic"
+    },
+    {
+      "name": "PC Clear"
+    },
+    {
+      "name": "black plastic"
+    },
+    {
+      "name": "epoxy coated"
+    },
+    {
+      "name": "Render Material 127-159-255"
+    },
+    {
+      "name": "Render Material 0-0-0"
+    },
+    {
+      "name": "Access"
+    },
+    {
+      "name": "CPA-Wood-Oak"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Textured\\Black"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Textured\\Brown, dark"
+    },
+    {
+      "name": "Whiteboard to Doors"
+    },
+    {
+      "name": "Glass - Cooper Industries - Light Bulb On"
+    },
+    {
+      "name": "CC  -Error Warning"
+    },
+    {
+      "name": "Mirror"
+    },
+    {
+      "name": "Aluminum - Cooper Industries - White Matte"
+    },
+    {
+      "name": "Plastic - Cooper Industries - Frosted"
+    },
+    {
+      "name": "Metal - Cooper Industries - Aluminum"
+    },
+    {
+      "name": "Metal - Cooper Industries - Steel - White"
+    },
+    {
+      "name": "Plastic - Cooper Industries - Matte - Acrylic White"
+    },
+    {
+      "name": "glass - blue - t85"
+    },
+    {
+      "name": "metal - bright white - RAL9010"
+    },
+    {
+      "name": "zz_128-128-255_t50"
+    },
+    {
+      "name": "glass - green - t85"
+    },
+    {
+      "name": "Plastic - Cooper Industries -White"
+    },
+    {
+      "name": "Brush-Upsite-Black"
+    },
+    {
+      "name": "Plastic-Upsite-Black"
+    },
+    {
+      "name": "Zumtobel_Metal_Grey"
+    },
+    {
+      "name": "Metal - Steel - AiPhone - Painted - Black"
+    },
+    {
+      "name": "Zumtobel_Lamp"
+    },
+    {
+      "name": "Zumtobel_Metal_White"
+    },
+    {
+      "name": "Wall Opening Material"
+    },
+    {
+      "name": "PVC, Cap Material"
+    },
+    {
+      "name": "Steel"
+    },
+    {
+      "name": "Steel, zinc-plated (min. 5 µm)"
+    },
+    {
+      "name": "Metal - Steel Galvanised"
+    },
+    {
+      "name": "Polypropylene - Black"
+    },
+    {
+      "name": "Rubber - Black"
+    },
+    {
+      "name": "Clear"
+    },
+    {
+      "name": "Concrete Housing"
+    },
+    {
+      "name": "LightMaterialFinsih"
+    },
+    {
+      "name": "Render Material 0-255-0"
+    },
+    {
+      "name": "Pole Underground Section"
+    },
+    {
+      "name": "Bel Materiall Colour"
+    },
+    {
+      "name": "Bel Imagel Colour"
+    },
+    {
+      "name": "SwitchColour"
+    },
+    {
+      "name": "RaisedSwitchPortion"
+    },
+    {
+      "name": "Aluminum"
+    },
+    {
+      "name": "Camera Material"
+    },
+    {
+      "name": "Indication Screen"
+    },
+    {
+      "name": "Camera White"
+    },
+    {
+      "name": "Screen"
+    },
+    {
+      "name": "Lock"
+    },
+    {
+      "name": "Access Control Colour"
+    },
+    {
+      "name": "Cabinet Material"
+    },
+    {
+      "name": "Cabinet Clear Material"
+    },
+    {
+      "name": "Controller Colour"
+    },
+    {
+      "name": "Controller Colour White"
+    },
+    {
+      "name": "Dynamo"
+    },
+    {
+      "name": "DynamoError"
+    }
+  ],
+  [],
+  [],
+  [],
+  [
+    {
+      "name": "CERC-JSS-XX-ZZ-M3-A-001.rvt : 36 : location <Not Shared>"
+    }
+  ],
+  [
+    {
+      "name": "Existing"
+    },
+    {
+      "name": "New Construction"
+    }
+  ],
+  [],
+  [],
+  [],
+  [
+    {
+      "name": "Switch Room 15090"
+    },
+    {
+      "name": "Lobby 15026"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Store 15032"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Riser 15086"
+    },
+    {
+      "name": "Riser 15088"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Lobby 15060"
+    },
+    {
+      "name": "Store 15064"
+    },
+    {
+      "name": "UA WC-sh 1 15040"
+    },
+    {
+      "name": "Fire Fighting Lobby 15018"
+    },
+    {
+      "name": "Cleaner 15020"
+    },
+    {
+      "name": "Concourse 15024"
+    },
+    {
+      "name": "Lecture Theatre 15028"
+    },
+    {
+      "name": "Stair 1 15010"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Lobby 15030"
+    },
+    {
+      "name": "Link Foyer 15002"
+    },
+    {
+      "name": "Tutorial 5 15072"
+    },
+    {
+      "name": "Tutorial 4 15070"
+    },
+    {
+      "name": "Tutorial 3 15066"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Female WC 15048"
+    },
+    {
+      "name": "Tutorial 1 15080"
+    },
+    {
+      "name": "Tutorial 2 15078"
+    },
+    {
+      "name": "Boiler Room 15076"
+    },
+    {
+      "name": "ESB s/st. 15092"
+    },
+    {
+      "name": "Tutorial 6 15074"
+    },
+    {
+      "name": "Male WC 15042"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Research 2 15204"
+    },
+    {
+      "name": "Empty 15100"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Riser 15288"
+    },
+    {
+      "name": "Store 2 15220"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Store 15246"
+    },
+    {
+      "name": "Male WC 15234"
+    },
+    {
+      "name": "UA WC-sh 3 15238"
+    },
+    {
+      "name": "Research 8 15256"
+    },
+    {
+      "name": "Research 5 15262"
+    },
+    {
+      "name": "Research 4 15208"
+    },
+    {
+      "name": "IT Server/Comms 15226"
+    },
+    {
+      "name": "Research 6 15260"
+    },
+    {
+      "name": "Research 7 15258"
+    },
+    {
+      "name": "Store 15224"
+    },
+    {
+      "name": "Store 1 15222"
+    },
+    {
+      "name": "Meeting Rm. 1 15242"
+    },
+    {
+      "name": "Tech. Office 15218"
+    },
+    {
+      "name": "Research Staff/Lab 15216"
+    },
+    {
+      "name": "Research 3 15206"
+    },
+    {
+      "name": "Meeting Rm. 2 15244"
+    },
+    {
+      "name": "Fire Fighting Lobby 15212"
+    },
+    {
+      "name": "Corridor 15200"
+    },
+    {
+      "name": "Female WC 15228"
+    },
+    {
+      "name": "Circulation/Waiting 15210"
+    },
+    {
+      "name": "Riser 15086"
+    },
+    {
+      "name": "Stair 2 15252"
+    },
+    {
+      "name": "Research 9 15254"
+    },
+    {
+      "name": "riser 15112"
+    },
+    {
+      "name": "Circulation 15240"
+    },
+    {
+      "name": "Stair 1 15214"
+    },
+    {
+      "name": "Research 1 15202"
+    },
+    {
+      "name": "Tea Kitchen/Social 15250"
+    },
+    {
+      "name": "Open Plan Office 15248"
+    },
+    {
+      "name": "Riser 15112"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Stair 2 15180"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "riser 15086"
+    },
+    {
+      "name": "riser 15088"
+    },
+    {
+      "name": "1P Office 3 15142"
+    },
+    {
+      "name": "UA WC-sh 2 15152"
+    },
+    {
+      "name": "Cleaner 15174"
+    },
+    {
+      "name": "1P Office 4 15144"
+    },
+    {
+      "name": "Observation 15166"
+    },
+    {
+      "name": "Meeting Room 15132"
+    },
+    {
+      "name": "1P Office 1 15134"
+    },
+    {
+      "name": "Tutorial 8 15172"
+    },
+    {
+      "name": "Clinical Area 1 15150"
+    },
+    {
+      "name": "1P Office 2 15136"
+    },
+    {
+      "name": "2P Office 15138"
+    },
+    {
+      "name": "Fire Fighting Lobby 15146"
+    },
+    {
+      "name": "Circulation 15140"
+    },
+    {
+      "name": "Stair 1 15148"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Tutorial 7 15170"
+    },
+    {
+      "name": "Clinical Area 2 15150"
+    },
+    {
+      "name": "Tea Kitchen/Social 15178"
+    },
+    {
+      "name": "Open Plan Office 15176"
+    },
+    {
+      "name": "Circulation 15168"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Male WC 15154"
+    },
+    {
+      "name": "Female WC 15158"
+    },
+    {
+      "name": "Clinical Store 15164"
+    },
+    {
+      "name": "1P Office 5 15194"
+    },
+    {
+      "name": "1P Office 6 15192"
+    },
+    {
+      "name": "1P Office 7 15190"
+    },
+    {
+      "name": "1P Office 8 15188"
+    },
+    {
+      "name": "1P Office 9 15186"
+    },
+    {
+      "name": "1P Office 10 15184"
+    },
+    {
+      "name": "1P Office 11 15182"
+    },
+    {
+      "name": "riser 15112"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Stair 2 15110"
+    },
+    {
+      "name": "riser 15086"
+    },
+    {
+      "name": "riser 15088"
+    },
+    {
+      "name": "Ducts 15130"
+    },
+    {
+      "name": "UA WC 1 15128"
+    },
+    {
+      "name": "Library Office 15108"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "UA WC 2 15124"
+    },
+    {
+      "name": "Fire Fighting Lobby 15096"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Cleaner 15122"
+    },
+    {
+      "name": "Comms. Room 15120"
+    },
+    {
+      "name": "Photocopy 15118"
+    },
+    {
+      "name": "Computer Lab 15116"
+    },
+    {
+      "name": "Collections 15114"
+    },
+    {
+      "name": "Librarian's Off. 15106"
+    },
+    {
+      "name": "Collaborative Study 15102"
+    },
+    {
+      "name": "Stair 1 15098"
+    },
+    {
+      "name": "Reader/IT Stations 15104"
+    },
+    {
+      "name": "Circulation/Social 15094"
+    },
+    {
+      "name": "Hospital Link 15000"
+    },
+    {
+      "name": "Water Tank 15270"
+    },
+    {
+      "name": "Entrance Foyer 15004"
+    },
+    {
+      "name": "Coffee Dock 15022"
+    },
+    {
+      "name": "Stair 2 15082"
+    },
+    {
+      "name": "Corridor 15068"
+    },
+    {
+      "name": "Common Area 15062"
+    },
+    {
+      "name": "Empty 15100"
+    },
+    {
+      "name": "Empty 15100"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Ducts 15130"
+    },
+    {
+      "name": "Ducts 15130"
+    },
+    {
+      "name": "LIFT 2 15243"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Stair 1 15266"
+    },
+    {
+      "name": "Lobby 15264"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "DB cpd. 15268"
+    }
+  ]
+]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Materials</title>
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <script>
+  $( function() {
+    $( ".accordion" ).accordion({
+        heightStyle: "content",
+        collapsible: true
+    });
+
+  } );
+  </script>
+</head>
+
+<body>
+<header>
+    <!-- load a partial piece of code - it cannot access the data given to this page-->
+    <% include partials/nav.ejs %>
+        <!-- ejs if statements are used here to control content, return nothing if no profile is entered-->
+        <% if (fname == undefined) {%> 
+        <h1> Over view of Model elements</h1> 
+        <% }  else { %>
+        <h1>All  <%= title[3] %>
+            <!-- access data give to the page-->
+        <br> in the model <br> <%= fname.name %></h1>
+        
+        <% } %>
+
+        <!-- ejs if statements are used here to control content, return nothing if no profile is entered-->
+        <% if (person == undefined) {%> <!--This is a comment - Nothing is passed--> <% } else { %>
+        <!-- return this is there is a profile <--></-->
+        <p><strong>Age: </strong>
+            <%= newData.age %>
+        </p>
+        <p><strong>Job: </strong>
+            <%= newData.job %>
+        </p>
+        <% } %>
+        <!-- ejs if statements are used here to control content-->
+        <p>
+            <% if (person == undefined) {%>No profiles have been input. <br> Append "/name" into url <% } else { %>We are in <%= person %>s profile <% } %>
+        </p>
+        </header>
+        <h2>Materials</h2>
+        <div id="main">
+            <div class="accordion">
+
+                <h3 align="center"> <%= title[3] %> : Count <%= info[3].length %> </h3>
+                    <div class="detail">
+                    <p>
+
+                        <% info[3].forEach(function(item) { %>
+                            <%= item.name; %> <br>
+                        <% }); %>
+                        </p>
+                    </div>                
+            </div>
+        </div>
+
+</body>
+
+</html>

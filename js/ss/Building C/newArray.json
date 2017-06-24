@@ -1,0 +1,3675 @@
+[
+  [
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "1"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "10"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "11"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "12"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "13"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "2"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "3"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "4"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "5"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "6"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "7"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "8"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "9"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "A"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "B"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "C"
+    },
+    {
+      "type": "CPA-6.0mm Bubble",
+      "name": "D"
+    }
+  ],
+  [
+    {
+      "name": "Ground Floor Plan",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "14300"
+    },
+    {
+      "name": "First Floor Plan",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "18350.0000000005"
+    },
+    {
+      "name": "Fourth Floor Plan",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "30500"
+    },
+    {
+      "name": "Second Floor Plan",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "22400"
+    },
+    {
+      "name": "Third Floor Plan",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "26450"
+    },
+    {
+      "name": "Roof Plan Level",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "34700"
+    },
+    {
+      "name": "future expansion",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "38900"
+    },
+    {
+      "name": "Lower Ground Level",
+      "type": "CPA-FFL Head-Shared Datum",
+      "elevation": "13250"
+    }
+  ],
+  [
+    {
+      "name": "Structure"
+    }
+  ],
+  [
+    {
+      "name": "CPA-Generic Wall"
+    },
+    {
+      "name": "CPA-Mass Exterior Wall"
+    },
+    {
+      "name": "CPA-Mass Floor"
+    },
+    {
+      "name": "CPA-Mass Opening"
+    },
+    {
+      "name": "CPA-Mass Roof"
+    },
+    {
+      "name": "CPA-Mass Shade"
+    },
+    {
+      "name": "CPA-Mass Skylight"
+    },
+    {
+      "name": "CPA-Mass Zone"
+    },
+    {
+      "name": "CPA-Glass"
+    },
+    {
+      "name": "CPA-Aluminum-Black"
+    },
+    {
+      "name": "CPA-Wood-Oak"
+    },
+    {
+      "name": "CPA-Air Layers-Air Space"
+    },
+    {
+      "name": "CPA-Aluminum"
+    },
+    {
+      "name": "CPA-Aluminum-Light Grey"
+    },
+    {
+      "name": "CPA-Blockwork"
+    },
+    {
+      "name": "CPA-Breather Membrane"
+    },
+    {
+      "name": "CPA-Chrome"
+    },
+    {
+      "name": "CPA-Concrete-Cast In Situ"
+    },
+    {
+      "name": "CPA-Concrete-Precast"
+    },
+    {
+      "name": "CPA-Concrete-Sand/Cement Screed"
+    },
+    {
+      "name": "1897-Fibrecement-Dark Grey"
+    },
+    {
+      "name": "Gyproc_Plasterboard_SoundBloc"
+    },
+    {
+      "name": "CPA-Insulation-Rigid"
+    },
+    {
+      "name": "CPA-Insulation-Semi rigid"
+    },
+    {
+      "name": "CPA-Paint-White Lining"
+    },
+    {
+      "name": "CPA-Plasterboard"
+    },
+    {
+      "name": "CPA-Roofing-Bitumen"
+    },
+    {
+      "name": "CPA-Stainless Steel"
+    },
+    {
+      "name": "CPA-Steel"
+    },
+    {
+      "name": "CPA-Vapour Control Layer"
+    },
+    {
+      "name": "CPA-Wood-Iroko"
+    },
+    {
+      "name": "CPA-Wood-MDF"
+    },
+    {
+      "name": "CPA-Wood-Veneers"
+    },
+    {
+      "name": "Render Material 255-255-255"
+    },
+    {
+      "name": "Render Material 165-165-82"
+    },
+    {
+      "name": "Render Material 255-0-0"
+    },
+    {
+      "name": "Render Material 165-82-82"
+    },
+    {
+      "name": "Render Material 63-79-127"
+    },
+    {
+      "name": "Render Material 124-165-0"
+    },
+    {
+      "name": "Render Material 255-63-0"
+    },
+    {
+      "name": "Render Material 255-127-0"
+    },
+    {
+      "name": "Render Material 165-0-0"
+    },
+    {
+      "name": "Render Material 255-191-0"
+    },
+    {
+      "name": "Default"
+    },
+    {
+      "name": "Default Wall"
+    },
+    {
+      "name": "Glass"
+    },
+    {
+      "name": "Poche"
+    },
+    {
+      "name": "Render Material 152-152-152"
+    },
+    {
+      "name": "Render Material 204-204-204"
+    },
+    {
+      "name": "Render Material 0-255-63"
+    },
+    {
+      "name": "Render Material 0-76-19"
+    },
+    {
+      "name": "Oak Door"
+    },
+    {
+      "name": "1897-Fabric - Green"
+    },
+    {
+      "name": "Wood - Birch"
+    },
+    {
+      "name": "Wood - Cherry"
+    },
+    {
+      "name": "Paint - Violet"
+    },
+    {
+      "name": "Metal - Paint Grey"
+    },
+    {
+      "name": "Metal - Chrome"
+    },
+    {
+      "name": "Fabric - Leather, Black"
+    },
+    {
+      "name": "Phase - Demo"
+    },
+    {
+      "name": "Phase - Exist"
+    },
+    {
+      "name": "Phase - Temporary"
+    },
+    {
+      "name": "Textile - Linen, Smooth"
+    },
+    {
+      "name": "Metal - Paint Finish - Dark Gray, Matte"
+    },
+    {
+      "name": "Textile - Slate Blue"
+    },
+    {
+      "name": "Plastic - Black"
+    },
+    {
+      "name": "Wood - Pine"
+    },
+    {
+      "name": "Laminate - Linen, Matte"
+    },
+    {
+      "name": "Fabric"
+    },
+    {
+      "name": "Laminate - Counter"
+    },
+    {
+      "name": "Porcelain"
+    },
+    {
+      "name": "Metal - Chrome Polished"
+    },
+    {
+      "name": "Metal - Stainless Steel, Polished"
+    },
+    {
+      "name": "Plastic - Gray, Dark"
+    },
+    {
+      "name": "Plastic - White"
+    },
+    {
+      "name": "Metal - Paint Finish - Ivory, Glossy"
+    },
+    {
+      "name": "Laminate - Ivory, Matte"
+    },
+    {
+      "name": "Skandiform Tyg 1"
+    },
+    {
+      "name": "Skandiform Korm"
+    },
+    {
+      "name": "nbl_ConceptSolid"
+    },
+    {
+      "name": "Paint - Grey"
+    },
+    {
+      "name": "Paint - White"
+    },
+    {
+      "name": "Render Material 127-191-255"
+    },
+    {
+      "name": "Render Material 165-82-145"
+    },
+    {
+      "name": "Render Material 127-255-191"
+    },
+    {
+      "name": "Render Material 0-0-255"
+    },
+    {
+      "name": "Render Material 165-82-0"
+    },
+    {
+      "name": "Render Material 255-0-255"
+    },
+    {
+      "name": "Render Material 102-102-102"
+    },
+    {
+      "name": "Render Material 0-0-0"
+    },
+    {
+      "name": "CPA-Metal Furring System"
+    },
+    {
+      "name": "Metal - Steel, Polished"
+    },
+    {
+      "name": "1895-Steel, Paint Finish, Black, Matte"
+    },
+    {
+      "name": "CPA-Paint Finish-Black"
+    },
+    {
+      "name": "1897-Fibrecement-Medium Grey"
+    },
+    {
+      "name": "CPA-Stone-Lime stone"
+    },
+    {
+      "name": "Render Material 0-255-255"
+    },
+    {
+      "name": "Render Material 0-255-0"
+    },
+    {
+      "name": "Render Material 255-255-0"
+    },
+    {
+      "name": "Render Material 127-255-0"
+    },
+    {
+      "name": "Render Material 41-0-165"
+    },
+    {
+      "name": "Render Material 165-41-0"
+    },
+    {
+      "name": "Render Material 124-165-82"
+    },
+    {
+      "name": "Metal - White powder coated"
+    },
+    {
+      "name": "Render Material 191-255-127"
+    },
+    {
+      "name": "Render Material 127-63-95"
+    },
+    {
+      "name": "Render Material 255-0-191"
+    },
+    {
+      "name": "Render Material 159-255-127"
+    },
+    {
+      "name": "Concrete - Cast-in-Place Concrete"
+    },
+    {
+      "name": "Metal - Steel"
+    },
+    {
+      "name": "Metal - Aluminium"
+    },
+    {
+      "name": "CPA-Plastic - White"
+    },
+    {
+      "name": "Finishes - BlackBoards"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Textured\\Black"
+    },
+    {
+      "name": "BMCD2AR3\\Solid Materials \\Matte\\Textured\\Brown, dark"
+    },
+    {
+      "name": "CPA-Glass-Coloured-Grey"
+    },
+    {
+      "name": "Default Form"
+    },
+    {
+      "name": "Whiteboard to Doors"
+    },
+    {
+      "name": "Laminate - Bushboard - Welsh Slate BB275"
+    },
+    {
+      "name": "Render Material 127-95-0"
+    },
+    {
+      "name": "CPA-Plastic-White"
+    },
+    {
+      "name": "CPA-Plasterboard Moisture Resistant"
+    },
+    {
+      "name": "CPA-Laminate-Formica"
+    },
+    {
+      "name": "CPA-Timber-Wood Fibre"
+    },
+    {
+      "name": "Glass - Cooper Industries - Light Bulb On"
+    },
+    {
+      "name": "CC  -Error Warning"
+    },
+    {
+      "name": "Render Material 0-255-191"
+    },
+    {
+      "name": "Metal - Chrome, Polished"
+    },
+    {
+      "name": "Porcelain - Linen"
+    },
+    {
+      "name": "Stainless Steel, Brushed"
+    },
+    {
+      "name": "WaldnerScala_white"
+    },
+    {
+      "name": "WaldnerScala_grey_Plinth"
+    },
+    {
+      "name": "UHMW, Black"
+    },
+    {
+      "name": "CPA-Wood-HPL"
+    },
+    {
+      "name": "TV - Glass"
+    },
+    {
+      "name": "TV - Black"
+    },
+    {
+      "name": "TV - Screen"
+    },
+    {
+      "name": "Mirror"
+    },
+    {
+      "name": "CPA-Plasterboard ceilings"
+    },
+    {
+      "name": "CPA-Insulation-Rigid Roof"
+    },
+    {
+      "name": "CPA-Wood-Oak Veneer"
+    },
+    {
+      "name": "CPA-Glass-Non Rated"
+    },
+    {
+      "name": "CPA-Wood-Plywood"
+    },
+    {
+      "name": "Render Material 145-165-82"
+    },
+    {
+      "name": "Render Material 153-153-153"
+    },
+    {
+      "name": "Render Material 255-159-127"
+    },
+    {
+      "name": "Render Material 255-127-127"
+    },
+    {
+      "name": "Render Material 223-255-127"
+    },
+    {
+      "name": "Render Material 191-127-255"
+    },
+    {
+      "name": "Render Material 145-82-165"
+    },
+    {
+      "name": "Render Material 63-255-0"
+    },
+    {
+      "name": "Render Material 0-76-38"
+    },
+    {
+      "name": "Render Material 223-127-255"
+    },
+    {
+      "name": "Render Material 82-165-145"
+    },
+    {
+      "name": "Render Material 128-128-128"
+    },
+    {
+      "name": "Render Material 0-127-31"
+    },
+    {
+      "name": "Render Material 101-101-101"
+    },
+    {
+      "name": "CPA-Wood-Timber Stud Layer"
+    },
+    {
+      "name": "CPA-Glass-Fire Rated 30/30"
+    },
+    {
+      "name": "CPA-Glass-Fire Rated 60/60"
+    },
+    {
+      "name": "WaldnerScala_grey"
+    },
+    {
+      "name": "WaldnerSan_Green"
+    },
+    {
+      "name": "WaldnerSan_Blue"
+    },
+    {
+      "name": "WaldnerSan_Red"
+    },
+    {
+      "name": "WaldnerSan_Black"
+    },
+    {
+      "name": "WaldnerSan_Grey"
+    },
+    {
+      "name": "Render Material 0-127-0"
+    },
+    {
+      "name": "Render Material 31-127-0"
+    },
+    {
+      "name": "Render Material 127-127-63"
+    },
+    {
+      "name": "Render Material 127-111-63"
+    },
+    {
+      "name": "Render Material 127-63-0"
+    },
+    {
+      "name": "Render Material 0-127-255"
+    },
+    {
+      "name": "1897-Stone"
+    },
+    {
+      "name": "1897-Tanking"
+    },
+    {
+      "name": "CPA-Blockwork Non Fair faced"
+    },
+    {
+      "name": "CPA-Insulation-Rigid Retaining Wall UnderGround"
+    },
+    {
+      "name": "CPA-Concrete-Cast In Situ Retaining"
+    },
+    {
+      "name": "CPA-Insulation-Rigid Rainscreen"
+    },
+    {
+      "name": "Render Material 0-191-255"
+    },
+    {
+      "name": "CPA-Concrete-Cast In Situ Wall"
+    },
+    {
+      "name": "Metal - Steel 43-275"
+    },
+    {
+      "name": "Metal - Steel 50-355"
+    },
+    {
+      "name": "Metal - Steel - S275"
+    },
+    {
+      "name": "Metal - Aluminum"
+    },
+    {
+      "name": "Render Material 192-192-192"
+    },
+    {
+      "name": "1897-Aluminum Facade Panel"
+    },
+    {
+      "name": "CPA-Glass,Green"
+    },
+    {
+      "name": "Render Material 255-127-255"
+    },
+    {
+      "name": "Render Material 165-165-0"
+    },
+    {
+      "name": "1897-Gravel-Ballast"
+    },
+    {
+      "name": "CPA-Green-Roof-Substrate"
+    },
+    {
+      "name": "1897-Stone Coping"
+    },
+    {
+      "name": "Metal - Stainless Steel,Polished"
+    },
+    {
+      "name": "1897-Aluminum Wall Panel"
+    },
+    {
+      "name": "CPA-Metal Cladding-Horz."
+    },
+    {
+      "name": "1897-Wood-Oak Handrail"
+    },
+    {
+      "name": "Render Material 0-63-255"
+    },
+    {
+      "name": "Render Material 124-82-165"
+    },
+    {
+      "name": "Render Material 255-0-63"
+    },
+    {
+      "name": "Render Material 0-41-165"
+    },
+    {
+      "name": "Render Material 255-127-191"
+    },
+    {
+      "name": "CPA-Steel Grate"
+    },
+    {
+      "name": "1897-Aluminum Profiled Panel"
+    },
+    {
+      "name": "CPA-Laminate-Formica Green"
+    },
+    {
+      "name": "1897 Plastic - Red"
+    },
+    {
+      "name": "1897-Carpet"
+    },
+    {
+      "name": "Plastic - red"
+    },
+    {
+      "name": "CPA-Laminate-Formica Green (6901)"
+    },
+    {
+      "name": "CPA-Ceramic-Tiles 1200x600"
+    },
+    {
+      "name": "1897-Render"
+    },
+    {
+      "name": "1897-Laminate-Formica_Fire Doors"
+    },
+    {
+      "name": "1897-Paint Finish_Teal"
+    },
+    {
+      "name": "1897-Fabric - Light"
+    },
+    {
+      "name": "1897-Marmoleum"
+    },
+    {
+      "name": "1897-Fabric - Red"
+    },
+    {
+      "name": "CPA-Blockwork Below Ground and External Leaf"
+    },
+    {
+      "name": "CPA-Glass-Fire Rated 30/00"
+    },
+    {
+      "name": "CPA-Glass-Fire Rated 60/00"
+    },
+    {
+      "name": "CPA-Insulation-Rigid Partial Fill"
+    },
+    {
+      "name": "CPA-Insulation-Boiler Wall"
+    },
+    {
+      "name": "CPA-Insulation-Rigid Underground Basement"
+    },
+    {
+      "name": "1825-Concrete-Cast In Situ Wall"
+    },
+    {
+      "name": "CPA-Tanking Membrane"
+    },
+    {
+      "name": "Wall Material (1)"
+    },
+    {
+      "name": "1897-Aluminum Profiled Channel"
+    },
+    {
+      "name": "1897-Tiling"
+    },
+    {
+      "name": "1897-Aluminum Ply Lined Facade Panel"
+    },
+    {
+      "name": "CPA-Glass(1)"
+    },
+    {
+      "name": "CPA-Steel_Top Rail"
+    },
+    {
+      "name": "CPA-Steel_Handrail Support"
+    },
+    {
+      "name": "CPA-Steel_Baluster"
+    },
+    {
+      "name": "CPA-Steel_Bottom Rail"
+    },
+    {
+      "name": "Bailey - Aluminum -  Anodized - Blue"
+    },
+    {
+      "name": "CPA-Paint Finish"
+    },
+    {
+      "name": "CPA-Metal Ceiling 1200 x 300mm"
+    },
+    {
+      "name": "1897-Plasterboard Acoustic"
+    },
+    {
+      "name": "CPA-Plasterboard Moisture Resistant Ceilings"
+    },
+    {
+      "name": "CPA-Plasterboard Bulkhead"
+    },
+    {
+      "name": "CPA-MR Ceiling 600 x 600mm"
+    },
+    {
+      "name": "CPA-Metal Ceiling 600 x 300mm"
+    },
+    {
+      "name": "CPA-Ceiling 1200 x 600mm"
+    },
+    {
+      "name": "CPA-Insulation-Boiler Ceiling / Soffit"
+    },
+    {
+      "name": "Grass"
+    },
+    {
+      "name": "Render Material 124-0-165"
+    },
+    {
+      "name": "Render Material 127-223-255"
+    },
+    {
+      "name": "Render Material 0-165-124"
+    },
+    {
+      "name": "Render Material 255-0-127"
+    },
+    {
+      "name": "Render Material 165-0-165"
+    },
+    {
+      "name": "Render Material 255-223-127"
+    },
+    {
+      "name": "Render Material 95-127-0"
+    },
+    {
+      "name": "Render Material 111-127-63"
+    },
+    {
+      "name": "Render Material 103-82-165"
+    },
+    {
+      "name": "Render Material 255-191-127"
+    },
+    {
+      "name": "Render Material 127-0-255"
+    },
+    {
+      "name": "Render Material 165-0-124"
+    },
+    {
+      "name": "Render Material 165-124-0"
+    },
+    {
+      "name": "Render Material 127-255-127"
+    },
+    {
+      "name": "Render Material 127-31-0"
+    },
+    {
+      "name": "Render Material 127-159-255"
+    },
+    {
+      "name": "Render Material 191-255-0"
+    },
+    {
+      "name": "Metal, Paint Finish, White, Matte"
+    },
+    {
+      "name": "NBS_ClearanceZone"
+    },
+    {
+      "name": "Metal - Steel - 345 MPa"
+    },
+    {
+      "name": "Guide rail"
+    },
+    {
+      "name": "Elevator Shaft"
+    },
+    {
+      "name": "Limppu (1)"
+    },
+    {
+      "name": "KONE - Weight movement"
+    },
+    {
+      "name": "Door - Frame/Mullion"
+    },
+    {
+      "name": "Door - Panel"
+    },
+    {
+      "name": "Door - Handle"
+    },
+    {
+      "name": "Metal - Lead"
+    },
+    {
+      "name": "Window Frame"
+    },
+    {
+      "name": "Metal - Bronze, Light Brush"
+    },
+    {
+      "name": "Glazing Bar"
+    },
+    {
+      "name": "Metal -  Stainless Steel"
+    },
+    {
+      "name": "Metal -  Safety Red Coating"
+    },
+    {
+      "name": "Dynamo"
+    },
+    {
+      "name": "DynamoError"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "CPA-Electrical Terminals-Legend.dwg"
+    },
+    {
+      "name": "1897-CPA-00-ZZ-M2-A-ELE_North Elevation.dwg"
+    },
+    {
+      "name": "Drawing2.dwg (2)"
+    },
+    {
+      "name": "Drawing2.dwg.toilet"
+    },
+    {
+      "name": "Drawing2.dwg.toilet"
+    },
+    {
+      "name": "Drawing2.dwg.toilet"
+    },
+    {
+      "name": "Drawing2.dwg.sink"
+    },
+    {
+      "name": "Drawing2.dwg.sink"
+    },
+    {
+      "name": "Drawing2.dwg.sink"
+    },
+    {
+      "name": "Drawing2.dwg.A$C3D5F2159"
+    },
+    {
+      "name": "Drawing2.dwg.A$C3D5F2159"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS.dwg (3)"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS.dwg (2)"
+    }
+  ],
+  [
+    {
+      "name": "A200_Elev_back"
+    },
+    {
+      "name": "construction"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "A600_Electrical"
+    },
+    {
+      "name": "A000_Text_general"
+    },
+    {
+      "name": "A320_Internal_opes"
+    },
+    {
+      "name": "A000_Area"
+    },
+    {
+      "name": "A310_External_opes"
+    },
+    {
+      "name": "A270_Roof"
+    },
+    {
+      "name": "Fibre Cement Cladding Joints"
+    },
+    {
+      "name": "Center Line"
+    },
+    {
+      "name": "A032_Grid_dims"
+    },
+    {
+      "name": "A450_Ceiling_detail"
+    },
+    {
+      "name": "A300"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A240_Stairs"
+    },
+    {
+      "name": "A200_Hatch"
+    },
+    {
+      "name": "A200_Elev_fore"
+    },
+    {
+      "name": "A200_Elev_back"
+    },
+    {
+      "name": "Drop"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A920_Survey_Info"
+    },
+    {
+      "name": "Structural Opes Set-out"
+    },
+    {
+      "name": "Structural Opes 1st Floor"
+    },
+    {
+      "name": "Rise"
+    },
+    {
+      "name": "A300_Details"
+    },
+    {
+      "name": "Pipes"
+    },
+    {
+      "name": "A210_Ext_walls"
+    },
+    {
+      "name": "construction"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "A320_Internal_opes_id"
+    },
+    {
+      "name": "A700_Furniture_notes"
+    },
+    {
+      "name": "A700_Furniture_loose"
+    },
+    {
+      "name": "A032_Grids"
+    },
+    {
+      "name": "A740_Sanitary"
+    },
+    {
+      "name": "A280_Structure"
+    },
+    {
+      "name": "A500_Services_general"
+    },
+    {
+      "name": "A200_Text"
+    },
+    {
+      "name": "Structural Opes Rooms"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "A000_Inserts_blocks"
+    },
+    {
+      "name": "A220_Int_walls"
+    },
+    {
+      "name": "A700_Furniture_fixed"
+    },
+    {
+      "name": "A000_Dims_general"
+    },
+    {
+      "name": "A314A"
+    },
+    {
+      "name": "A000_Dims_100"
+    },
+    {
+      "name": "A000_Room_id"
+    },
+    {
+      "name": "A000_Text_general"
+    },
+    {
+      "name": "Structural Opes Columns"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "A450_Ceiling_line"
+    },
+    {
+      "name": "Structural Opes 3rd Floor"
+    },
+    {
+      "name": "Structural Opes 00 Floor"
+    },
+    {
+      "name": "Structural Opes"
+    },
+    {
+      "name": "Structural Opes - Walls"
+    },
+    {
+      "name": "A300_Hatch"
+    },
+    {
+      "name": "A410_Finish_ext_L2"
+    },
+    {
+      "name": "13"
+    },
+    {
+      "name": "A000_Dims_general-100"
+    },
+    {
+      "name": "Up Arrows"
+    },
+    {
+      "name": "A230_Floor"
+    },
+    {
+      "name": "Structural Opes 2nd Floor"
+    },
+    {
+      "name": "A410_Finish_ext_L1"
+    },
+    {
+      "name": "A050_Tag_reference"
+    },
+    {
+      "name": "A310_External_opes"
+    },
+    {
+      "name": "Fibre Cement Cladding Joints"
+    },
+    {
+      "name": "A200_Hatch"
+    },
+    {
+      "name": "A300_Details"
+    },
+    {
+      "name": "A210_Ext_walls"
+    },
+    {
+      "name": "A280_Structure"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "A000_Text_general"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "Curtain Walling Breakup"
+    },
+    {
+      "name": "A410_Finish_ext_L2"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "A000_Vports"
+    },
+    {
+      "name": "A020_Title_sheet"
+    },
+    {
+      "name": "A010_Title_text"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "FIXINGS"
+    },
+    {
+      "name": "A000_Inserts_xrefs"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DOORS_EMC"
+    },
+    {
+      "name": "DETAIL"
+    },
+    {
+      "name": "ORIGIN"
+    },
+    {
+      "name": "CONSTRUCTION_CLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A310_External_opes"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-VIEWPORT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-LEVELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|SYMBOL"
+    },
+    {
+      "name": "200x - Elevations|A310_External_opes"
+    },
+    {
+      "name": "200x - Elevations|A200_Text"
+    },
+    {
+      "name": "DS-CENTRELINE"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A032_Grids"
+    },
+    {
+      "name": "DB - SCAFFOLD TIES"
+    },
+    {
+      "name": "A270_Roof"
+    },
+    {
+      "name": "1694-GA-01 Schedules|Defpoints"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Defpoints"
+    },
+    {
+      "name": "Z-230_A_LEVEL"
+    },
+    {
+      "name": "200x - Elevations|A920_Survey_Info"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A314"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-SEALING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS HIDDEN DETAIL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-CONCRETE"
+    },
+    {
+      "name": "A032_Grid_dims"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-230_A_LEVEL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-230-A_LEVEL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A280_Structure"
+    },
+    {
+      "name": "DS-DIMENSIONS"
+    },
+    {
+      "name": "200x - Elevations|SECTION"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-TEGRAL_165_BRACKET"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-SYMBOLS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANELS"
+    },
+    {
+      "name": "200x - Elevations_A920_Survey_Info"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FIN"
+    },
+    {
+      "name": "DS-SYMBOLS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Profiles"
+    },
+    {
+      "name": "DS-ALWI THERM. ISOLATOR"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-590-M_PIPEWORK"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-INSULATION"
+    },
+    {
+      "name": "A200_Hatch"
+    },
+    {
+      "name": "1694-GA-02 Cladding|Defpoints"
+    },
+    {
+      "name": "M-287-M_DUCT_FIT"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI BRACKETS GRID"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-PRESSING"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-VIEWPORT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-287-M_DUCT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A210_Ext_walls"
+    },
+    {
+      "name": "200x - Elevations|A300_Details"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-DIMENSIONS_1"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-DIMENSIONS_2"
+    },
+    {
+      "name": "A200_Elev_back"
+    },
+    {
+      "name": "M-567-M_MECH_EQP"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-CENTRELINE"
+    },
+    {
+      "name": "DS-ALWI 42x50 L PROFILE"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A410_Finish_ext_L2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A410_Finish_ext_L1"
+    },
+    {
+      "name": "200x - Elevations_construction"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A700_Furniture_loose"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A270_Roof"
+    },
+    {
+      "name": "200x - Elevations_A240_Stairs"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI 42x50 L PROFILE"
+    },
+    {
+      "name": "DS-SHEET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI RAIL FIXING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI THERM. ISOLATOR"
+    },
+    {
+      "name": "200x - Elevations|A200_Hatch"
+    },
+    {
+      "name": "1694-GA-02 Cladding_DS-ALWI BRACKETS GRID"
+    },
+    {
+      "name": "M-590-M_PIPEWORK"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A920_Survey_Info"
+    },
+    {
+      "name": "DS-WIND POST"
+    },
+    {
+      "name": "A920_Survey_Info"
+    },
+    {
+      "name": "DS-XREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|E-610-M_EPS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z000"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS CENTRELINE"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-TEXT"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-TEXT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-XREF"
+    },
+    {
+      "name": "DS-FIN-BRACKET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_construction"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI RIVETS GRID"
+    },
+    {
+      "name": "DS-EPDM"
+    },
+    {
+      "name": "200x - Elevations|A240_Stairs"
+    },
+    {
+      "name": "DS-INSULATION"
+    },
+    {
+      "name": "DS-STEEL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-CAPS"
+    },
+    {
+      "name": "DS HATCH"
+    },
+    {
+      "name": "DS-HATCH"
+    },
+    {
+      "name": "200x - Elevations_SECTION"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DB - SCAFFOLD TIES"
+    },
+    {
+      "name": "200x - Elevations|A032_Grids"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-CENTRELINE"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 2nd FLOOR"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A240_Stairs"
+    },
+    {
+      "name": "A210_Ext_walls"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-SYMBOLS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 0nd FLOOR"
+    },
+    {
+      "name": "DS-GLASS"
+    },
+    {
+      "name": "construction"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-02 Cladding_DS-ALWI BRACKETS GRID"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-PRESSURE-PLATE"
+    },
+    {
+      "name": "Profile hatch"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-MANIFESTATION"
+    },
+    {
+      "name": "200x - Elevations_A032_Grids"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FC PANELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-BRACKETS"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-PRESSING"
+    },
+    {
+      "name": "200x - Elevations_STONE"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-TEXT"
+    },
+    {
+      "name": "APA-GASKETS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Dimensions"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A230_Floor"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-03 FC PANELS_DS-FC PANELS"
+    },
+    {
+      "name": "DS-FIN"
+    },
+    {
+      "name": "DS-VIEWPORT"
+    },
+    {
+      "name": "DS-FC PANEL HATCH"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|S280A"
+    },
+    {
+      "name": "DS OTHER"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-HIDDEN DETAIL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS_DS-FC PANEL SIZES"
+    },
+    {
+      "name": "DS-PRESSING"
+    },
+    {
+      "name": "Profiles"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ANNOTATION"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-MANIFESTATION"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI BRACKETS ELEVATION"
+    },
+    {
+      "name": "DS-CONCRETE"
+    },
+    {
+      "name": "DS-ANNOTATION"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-LEVELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-REV.02"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID NORTH"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A200_Elev_back"
+    },
+    {
+      "name": "A700_Furniture_loose"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID HORIZONTAL"
+    },
+    {
+      "name": "DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A410_Finish_ext_L2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS_DS-FC PANELS"
+    },
+    {
+      "name": "A032_Grids"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A050_Tag_reference"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A220_Int_walls"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Profile hatch"
+    },
+    {
+      "name": "SYMBOL"
+    },
+    {
+      "name": "DS-FC PANEL SIZES"
+    },
+    {
+      "name": "200x - Elevations_A314"
+    },
+    {
+      "name": "A280_Structure"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-567-M_MECH_EQP"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-PANELS"
+    },
+    {
+      "name": "200x - Elevations_A300_Details"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-WINDOW TYPE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-PANELS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI 100x50 T PROFILE"
+    },
+    {
+      "name": "Z-230-A_LEVEL"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-SECTION MARK"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-CONCRETE"
+    },
+    {
+      "name": "DS-TEGRAL_165_BRACKET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-287-M_DUCT_FIT"
+    },
+    {
+      "name": "Z-030-M_GRID"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "DS-ALWI 100x50 T PROFILE"
+    },
+    {
+      "name": "M-287-M_DUCT"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-SHEET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-EPDM"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI 42x50 L PROFILE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-FIN"
+    },
+    {
+      "name": "DS-INSERTS"
+    },
+    {
+      "name": "M-010-M_CENTRE_LINE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-VIEWPORT"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID SOUTH"
+    },
+    {
+      "name": "200x - Elevations|STONE"
+    },
+    {
+      "name": "DS-TEGRAL_PANEL"
+    },
+    {
+      "name": "DS-LEVELS"
+    },
+    {
+      "name": "LAYER5"
+    },
+    {
+      "name": "AM_9N"
+    },
+    {
+      "name": "A220_Int_walls"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FC PANEL SIZES"
+    },
+    {
+      "name": "200x - Elevations|construction"
+    },
+    {
+      "name": "DS-FIXINGS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FIXINGS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS_dwg"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-PROFILES"
+    },
+    {
+      "name": "DS HIDDEN DETAIL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-WIND POST"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI RAIL FIXING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-TEGRAL_PANEL"
+    },
+    {
+      "name": "200x - Elevations_A410_Finish_ext_L2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_STONE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-WINDOW SIZES"
+    },
+    {
+      "name": "DS-REV.02"
+    },
+    {
+      "name": "A000_Dims_general"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|LAYER3"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|LAYER5"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS HATCH"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-030-M_GRID"
+    },
+    {
+      "name": "DS-GASKET"
+    },
+    {
+      "name": "200x - Elevations_A310_External_opes"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FC PANEL HATCH"
+    },
+    {
+      "name": "DS-FC PANELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-SECTION MARK"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-WINDOW SIZES"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|AM_9N"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-SHEET"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-OPES LINES"
+    },
+    {
+      "name": "200x - Elevations|Defpoints"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-INSERTS"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-PRESSING"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-SPANDREL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-DIMENSIONS_1"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-STEEL"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-SHEET"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 1st FLOOR"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-PANELS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI BRACKETS PLAN"
+    },
+    {
+      "name": "Z000"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-VENTS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A032_Grid_dims"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_SECTION"
+    },
+    {
+      "name": "Z-033_T_GRIDREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-STEEL"
+    },
+    {
+      "name": "DS-CAPS"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DS-ALWI RAIL FIXING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FIN-BRACKET"
+    },
+    {
+      "name": "Profile"
+    },
+    {
+      "name": "0WIN-Fixings"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Profile"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-HATCH"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS OTHER"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-DIMENSIONS_2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-PRESSING"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID"
+    },
+    {
+      "name": "200x - Elevations|A200_Elev_back"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF DETAILS"
+    },
+    {
+      "name": "200x - Elevations|ALU.PANELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-033_T_GRIDREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|0WIN-Fixings"
+    },
+    {
+      "name": "A300_Hatch"
+    },
+    {
+      "name": "DS-BRACKETS"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-SECTION MARK"
+    },
+    {
+      "name": "S280A"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-XREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|construction"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-TEGRAL_BRACKET_FIXING"
+    },
+    {
+      "name": "A410_Finish_ext_L2"
+    },
+    {
+      "name": "DS CENTRELINE"
+    },
+    {
+      "name": "200x - Elevations|A310_External_opes_id"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-03 FC PANELS_DS-FC PANEL SIZES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A032_Grids"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI THERM. ISOLATOR"
+    },
+    {
+      "name": "LAYER3"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A920_Survey_Info"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI 40x60x2 L PROFILE"
+    },
+    {
+      "name": "200x - Elevations|A314"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-03 FC PANELS_dwg"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-REV.02"
+    },
+    {
+      "name": "A230_Floor"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-REV.01"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-INSULATION"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS OTHER"
+    },
+    {
+      "name": "DS-TEGRAL_BRACKET_FIXING"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 3th FLOOR"
+    },
+    {
+      "name": "200x - Elevations|A410_Finish_ext_L2"
+    },
+    {
+      "name": "DS-PRESSURE-PLATE"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI 100x50 T PROFILE"
+    },
+    {
+      "name": "DS DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A300_Hatch"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A200_Hatch"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A300_Details"
+    },
+    {
+      "name": "DS-SEALING"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-MANIFESTATION"
+    },
+    {
+      "name": "A410_Finish_ext_L1"
+    },
+    {
+      "name": "A050_Tag_reference"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-010-M_CENTRE_LINE"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-WINDOW SIZES"
+    },
+    {
+      "name": "E-610-M_EPS"
+    },
+    {
+      "name": "Dimensions"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-GASKET"
+    },
+    {
+      "name": "DS-DIMENSIONS_2"
+    },
+    {
+      "name": "DS-DIMENSIONS_1"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|APA-GASKETS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A000_Dims_general"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A310_External_opes"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-VIEWPORT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-LEVELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|SYMBOL"
+    },
+    {
+      "name": "200x - Elevations|A310_External_opes"
+    },
+    {
+      "name": "200x - Elevations|A200_Text"
+    },
+    {
+      "name": "DS-CENTRELINE"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A032_Grids"
+    },
+    {
+      "name": "DB - SCAFFOLD TIES"
+    },
+    {
+      "name": "A270_Roof"
+    },
+    {
+      "name": "1694-GA-01 Schedules|Defpoints"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Defpoints"
+    },
+    {
+      "name": "Z-230_A_LEVEL"
+    },
+    {
+      "name": "200x - Elevations|A920_Survey_Info"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A314"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-SEALING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS HIDDEN DETAIL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-CONCRETE"
+    },
+    {
+      "name": "A032_Grid_dims"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-230_A_LEVEL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-230-A_LEVEL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A280_Structure"
+    },
+    {
+      "name": "DS-DIMENSIONS"
+    },
+    {
+      "name": "200x - Elevations|SECTION"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-TEGRAL_165_BRACKET"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-SYMBOLS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANELS"
+    },
+    {
+      "name": "200x - Elevations_A920_Survey_Info"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FIN"
+    },
+    {
+      "name": "DS-SYMBOLS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Profiles"
+    },
+    {
+      "name": "DS-ALWI THERM. ISOLATOR"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-590-M_PIPEWORK"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-INSULATION"
+    },
+    {
+      "name": "A200_Hatch"
+    },
+    {
+      "name": "1694-GA-02 Cladding|Defpoints"
+    },
+    {
+      "name": "M-287-M_DUCT_FIT"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI BRACKETS GRID"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-PRESSING"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-VIEWPORT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-287-M_DUCT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A210_Ext_walls"
+    },
+    {
+      "name": "200x - Elevations|A300_Details"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-DIMENSIONS_1"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-DIMENSIONS_2"
+    },
+    {
+      "name": "A200_Elev_back"
+    },
+    {
+      "name": "M-567-M_MECH_EQP"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-CENTRELINE"
+    },
+    {
+      "name": "DS-ALWI 42x50 L PROFILE"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A410_Finish_ext_L2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A410_Finish_ext_L1"
+    },
+    {
+      "name": "200x - Elevations_construction"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A700_Furniture_loose"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A270_Roof"
+    },
+    {
+      "name": "200x - Elevations_A240_Stairs"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI 42x50 L PROFILE"
+    },
+    {
+      "name": "DS-SHEET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI RAIL FIXING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI THERM. ISOLATOR"
+    },
+    {
+      "name": "200x - Elevations|A200_Hatch"
+    },
+    {
+      "name": "1694-GA-02 Cladding_DS-ALWI BRACKETS GRID"
+    },
+    {
+      "name": "M-590-M_PIPEWORK"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A920_Survey_Info"
+    },
+    {
+      "name": "DS-WIND POST"
+    },
+    {
+      "name": "A920_Survey_Info"
+    },
+    {
+      "name": "DS-XREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|E-610-M_EPS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z000"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS CENTRELINE"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-TEXT"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-TEXT"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-XREF"
+    },
+    {
+      "name": "DS-FIN-BRACKET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_construction"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI RIVETS GRID"
+    },
+    {
+      "name": "DS-EPDM"
+    },
+    {
+      "name": "200x - Elevations|A240_Stairs"
+    },
+    {
+      "name": "DS-INSULATION"
+    },
+    {
+      "name": "DS-STEEL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-CAPS"
+    },
+    {
+      "name": "DS HATCH"
+    },
+    {
+      "name": "DS-HATCH"
+    },
+    {
+      "name": "200x - Elevations_SECTION"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DB - SCAFFOLD TIES"
+    },
+    {
+      "name": "200x - Elevations|A032_Grids"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-CENTRELINE"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 2nd FLOOR"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A240_Stairs"
+    },
+    {
+      "name": "A210_Ext_walls"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-SYMBOLS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 0nd FLOOR"
+    },
+    {
+      "name": "DS-GLASS"
+    },
+    {
+      "name": "construction"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-02 Cladding_DS-ALWI BRACKETS GRID"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-PRESSURE-PLATE"
+    },
+    {
+      "name": "Profile hatch"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-MANIFESTATION"
+    },
+    {
+      "name": "200x - Elevations_A032_Grids"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FC PANELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-BRACKETS"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-PRESSING"
+    },
+    {
+      "name": "200x - Elevations_STONE"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-TEXT"
+    },
+    {
+      "name": "APA-GASKETS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Dimensions"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A230_Floor"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-03 FC PANELS_DS-FC PANELS"
+    },
+    {
+      "name": "DS-FIN"
+    },
+    {
+      "name": "DS-VIEWPORT"
+    },
+    {
+      "name": "DS-FC PANEL HATCH"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|S280A"
+    },
+    {
+      "name": "DS OTHER"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-HIDDEN DETAIL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS_DS-FC PANEL SIZES"
+    },
+    {
+      "name": "DS-PRESSING"
+    },
+    {
+      "name": "Profiles"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ANNOTATION"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-MANIFESTATION"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI BRACKETS ELEVATION"
+    },
+    {
+      "name": "DS-CONCRETE"
+    },
+    {
+      "name": "DS-ANNOTATION"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-LEVELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-REV.02"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID NORTH"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A200_Elev_back"
+    },
+    {
+      "name": "A700_Furniture_loose"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID HORIZONTAL"
+    },
+    {
+      "name": "DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A410_Finish_ext_L2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS_DS-FC PANELS"
+    },
+    {
+      "name": "A032_Grids"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A050_Tag_reference"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A220_Int_walls"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Profile hatch"
+    },
+    {
+      "name": "SYMBOL"
+    },
+    {
+      "name": "DS-FC PANEL SIZES"
+    },
+    {
+      "name": "200x - Elevations_A314"
+    },
+    {
+      "name": "A280_Structure"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-567-M_MECH_EQP"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-PANELS"
+    },
+    {
+      "name": "200x - Elevations_A300_Details"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-WINDOW TYPE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-PANELS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI 100x50 T PROFILE"
+    },
+    {
+      "name": "Z-230-A_LEVEL"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-SECTION MARK"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-CONCRETE"
+    },
+    {
+      "name": "DS-TEGRAL_165_BRACKET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-287-M_DUCT_FIT"
+    },
+    {
+      "name": "Z-030-M_GRID"
+    },
+    {
+      "name": "0"
+    },
+    {
+      "name": "DS-ALWI 100x50 T PROFILE"
+    },
+    {
+      "name": "M-287-M_DUCT"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-SHEET"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-EPDM"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI 42x50 L PROFILE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-FIN"
+    },
+    {
+      "name": "DS-INSERTS"
+    },
+    {
+      "name": "M-010-M_CENTRE_LINE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-VIEWPORT"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID SOUTH"
+    },
+    {
+      "name": "200x - Elevations|STONE"
+    },
+    {
+      "name": "DS-TEGRAL_PANEL"
+    },
+    {
+      "name": "DS-LEVELS"
+    },
+    {
+      "name": "LAYER5"
+    },
+    {
+      "name": "AM_9N"
+    },
+    {
+      "name": "A220_Int_walls"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FC PANEL SIZES"
+    },
+    {
+      "name": "200x - Elevations|construction"
+    },
+    {
+      "name": "DS-FIXINGS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FIXINGS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS_dwg"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-PROFILES"
+    },
+    {
+      "name": "DS HIDDEN DETAIL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-WIND POST"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI RAIL FIXING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-TEGRAL_PANEL"
+    },
+    {
+      "name": "200x - Elevations_A410_Finish_ext_L2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_STONE"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-WINDOW SIZES"
+    },
+    {
+      "name": "DS-REV.02"
+    },
+    {
+      "name": "A000_Dims_general"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|LAYER3"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|LAYER5"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS HATCH"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-030-M_GRID"
+    },
+    {
+      "name": "DS-GASKET"
+    },
+    {
+      "name": "200x - Elevations_A310_External_opes"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FC PANEL HATCH"
+    },
+    {
+      "name": "DS-FC PANELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-SECTION MARK"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-WINDOW SIZES"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|AM_9N"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-SHEET"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-OPES LINES"
+    },
+    {
+      "name": "200x - Elevations|Defpoints"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-INSERTS"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-PRESSING"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-SPANDREL"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-DIMENSIONS_1"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-STEEL"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-SHEET"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 1st FLOOR"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-PANELS"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI BRACKETS PLAN"
+    },
+    {
+      "name": "Z000"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-VENTS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A032_Grid_dims"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_SECTION"
+    },
+    {
+      "name": "Z-033_T_GRIDREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-STEEL"
+    },
+    {
+      "name": "DS-CAPS"
+    },
+    {
+      "name": "Defpoints"
+    },
+    {
+      "name": "DS-ALWI RAIL FIXING"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-FIN-BRACKET"
+    },
+    {
+      "name": "Profile"
+    },
+    {
+      "name": "0WIN-Fixings"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-01 Schedules_DS-PROFILES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Profile"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-HATCH"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS OTHER"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-DIMENSIONS_2"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-PRESSING"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-FC PANEL GRID"
+    },
+    {
+      "name": "200x - Elevations|A200_Elev_back"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF DETAILS"
+    },
+    {
+      "name": "200x - Elevations|ALU.PANELS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|Z-033_T_GRIDREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|0WIN-Fixings"
+    },
+    {
+      "name": "A300_Hatch"
+    },
+    {
+      "name": "DS-BRACKETS"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-SECTION MARK"
+    },
+    {
+      "name": "S280A"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-XREF"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|construction"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-TEGRAL_BRACKET_FIXING"
+    },
+    {
+      "name": "A410_Finish_ext_L2"
+    },
+    {
+      "name": "DS CENTRELINE"
+    },
+    {
+      "name": "200x - Elevations|A310_External_opes_id"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-03 FC PANELS_DS-FC PANEL SIZES"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A032_Grids"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI THERM. ISOLATOR"
+    },
+    {
+      "name": "LAYER3"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A920_Survey_Info"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-ALWI 40x60x2 L PROFILE"
+    },
+    {
+      "name": "200x - Elevations|A314"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|1694-GA-03 FC PANELS_dwg"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-REV.02"
+    },
+    {
+      "name": "A230_Floor"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-REV.01"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-INSULATION"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS OTHER"
+    },
+    {
+      "name": "DS-TEGRAL_BRACKET_FIXING"
+    },
+    {
+      "name": "1694-GA-02 Cladding|DS-XREF 3th FLOOR"
+    },
+    {
+      "name": "200x - Elevations|A410_Finish_ext_L2"
+    },
+    {
+      "name": "DS-PRESSURE-PLATE"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-ALWI 100x50 T PROFILE"
+    },
+    {
+      "name": "DS DIMENSIONS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A300_Hatch"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A200_Hatch"
+    },
+    {
+      "name": "1694-GA-01 Schedules|DS-GLASS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|200x - Elevations_A300_Details"
+    },
+    {
+      "name": "DS-SEALING"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-MANIFESTATION"
+    },
+    {
+      "name": "A410_Finish_ext_L1"
+    },
+    {
+      "name": "A050_Tag_reference"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|M-010-M_CENTRE_LINE"
+    },
+    {
+      "name": "1694-GA-01 Schedules_DS-WINDOW SIZES"
+    },
+    {
+      "name": "E-610-M_EPS"
+    },
+    {
+      "name": "Dimensions"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|DS-GASKET"
+    },
+    {
+      "name": "DS-DIMENSIONS_2"
+    },
+    {
+      "name": "DS-DIMENSIONS_1"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|APA-GASKETS"
+    },
+    {
+      "name": "1694-GA-03 FC PANELS|A000_Dims_general"
+    }
+  ],
+  [
+    {
+      "name": "CERC-JSS-XX-ZZ-M3-S-001.rvt : 52 : location <Not Shared>"
+    },
+    {
+      "name": "CERC-JSS-XX-ZZ-M3-D-001.rvt : 53 : location <Not Shared>"
+    },
+    {
+      "name": "CERC-JSS-XX-ZZ-M3-X-001.rvt : 54 : location <Not Shared>"
+    }
+  ],
+  [
+    {
+      "name": "Schedules"
+    },
+    {
+      "name": "Existing"
+    },
+    {
+      "name": "Proposed Works"
+    }
+  ],
+  [],
+  [
+    {
+      "name": "Stair 1 15010"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Stair 2 15082"
+    },
+    {
+      "name": "Tutorial 5 15072"
+    },
+    {
+      "name": "Tutorial 4 15070"
+    },
+    {
+      "name": "Tutorial 1 15080"
+    },
+    {
+      "name": "ESB s/st. 15092"
+    },
+    {
+      "name": "Switch Room 15090"
+    },
+    {
+      "name": "Concourse 15024"
+    },
+    {
+      "name": "Reader/IT Stations 15104"
+    },
+    {
+      "name": "Librarian's Office 15106"
+    },
+    {
+      "name": "Computer Lab 15116"
+    },
+    {
+      "name": "Comms. Room 15120"
+    },
+    {
+      "name": "Lecture Theatre 15028"
+    },
+    {
+      "name": "Stair 2 15110"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Stair 1 15098"
+    },
+    {
+      "name": "Collections 15114"
+    },
+    {
+      "name": "Photocopy 15118"
+    },
+    {
+      "name": "Collaborative Study 15102"
+    },
+    {
+      "name": "Stair 2 15180"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Stair 1 15148"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Clinical Area 1 15150"
+    },
+    {
+      "name": "Tutorial 7 15170"
+    },
+    {
+      "name": "Tutorial 8 15172"
+    },
+    {
+      "name": "Clinical Store 15164"
+    },
+    {
+      "name": "Meeting Room 15132"
+    },
+    {
+      "name": "1P Office 4 15144"
+    },
+    {
+      "name": "1P Office 11 15182"
+    },
+    {
+      "name": "1P Office 5 15194"
+    },
+    {
+      "name": "1P Office 6 15192"
+    },
+    {
+      "name": "1P Office 8 15188"
+    },
+    {
+      "name": "Tutorial 2 15078"
+    },
+    {
+      "name": "Female WC 15048"
+    },
+    {
+      "name": "Tutorial 3 15066"
+    },
+    {
+      "name": "Cleaner 15020"
+    },
+    {
+      "name": "Circulation/Social 15094"
+    },
+    {
+      "name": "Cleaner 15174"
+    },
+    {
+      "name": "2P Office 15138"
+    },
+    {
+      "name": "Boiler Room 15076"
+    },
+    {
+      "name": "Lobby 15030"
+    },
+    {
+      "name": "IT Server/Comms 15226"
+    },
+    {
+      "name": "Research 3 15206"
+    },
+    {
+      "name": "Research 2 15204"
+    },
+    {
+      "name": "Tutorial 6 15074"
+    },
+    {
+      "name": "Common Area 15062"
+    },
+    {
+      "name": "Circulation 15140"
+    },
+    {
+      "name": "Stair 2 15252"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "Stair 1 15214"
+    },
+    {
+      "name": "Circulation/Waiting 15210"
+    },
+    {
+      "name": "Stair 1 15266"
+    },
+    {
+      "name": "LIFT 2 15034"
+    },
+    {
+      "name": "Water Tank 15270"
+    },
+    {
+      "name": "Link Foyer 15002"
+    },
+    {
+      "name": "LIFT 1 15036"
+    },
+    {
+      "name": "1P Office 1 15134"
+    },
+    {
+      "name": "1P Office 2 15136"
+    },
+    {
+      "name": "1P Office 3 15142"
+    },
+    {
+      "name": "Tea Kitchen/Social 15178"
+    },
+    {
+      "name": "Research 4 15208"
+    },
+    {
+      "name": "Male WC 15042"
+    },
+    {
+      "name": "UA WC-sh 1 15040"
+    },
+    {
+      "name": "Ducts 15130"
+    },
+    {
+      "name": "UA WC-sh 2 15152"
+    },
+    {
+      "name": "Lobby 15026"
+    },
+    {
+      "name": "Lobby 15060"
+    },
+    {
+      "name": "Store 15032"
+    },
+    {
+      "name": "Corridor 15068"
+    },
+    {
+      "name": "Entrance Foyer 15004"
+    },
+    {
+      "name": "Male WC 15154"
+    },
+    {
+      "name": "Female WC 15158"
+    },
+    {
+      "name": "UA WC-sh 3 15238"
+    },
+    {
+      "name": "UA WC 2 15124"
+    },
+    {
+      "name": "Cleaner 15122"
+    },
+    {
+      "name": "Library Office 15108"
+    },
+    {
+      "name": "1P Office 7 15190"
+    },
+    {
+      "name": "1P Office 9 15186"
+    },
+    {
+      "name": "1P Office 10 15184"
+    },
+    {
+      "name": "Open Plan Office 15176"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Riser 15088"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "riser 15088"
+    },
+    {
+      "name": "riser 15088"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Fire Fighting Lobby 15018"
+    },
+    {
+      "name": "Fire Fighting Lobby 15096"
+    },
+    {
+      "name": "Fire Fighting Lobby 15146"
+    },
+    {
+      "name": "Fire Fighting Lobby 15212"
+    },
+    {
+      "name": "Riser 15086"
+    },
+    {
+      "name": "Lobby 15264"
+    },
+    {
+      "name": "Riser 15014"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Smoke Shaft 15012"
+    },
+    {
+      "name": "Ducts 15130"
+    },
+    {
+      "name": "Ducts 15130"
+    },
+    {
+      "name": "Tech. Office 15218"
+    },
+    {
+      "name": "Research 1 15202"
+    },
+    {
+      "name": "Store 1 15222"
+    },
+    {
+      "name": "Store 2 15220"
+    },
+    {
+      "name": "Research Staff/Lab 15216"
+    },
+    {
+      "name": "Observation 15166"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "riser 15112"
+    },
+    {
+      "name": "Riser 15112"
+    },
+    {
+      "name": "Store 15064"
+    },
+    {
+      "name": "Coffee Dock 15022"
+    },
+    {
+      "name": "Corridor 15200"
+    },
+    {
+      "name": "DB cpd. 15268"
+    },
+    {
+      "name": "Open Plan Office 15248"
+    },
+    {
+      "name": "Meeting Rm. 2 15244"
+    },
+    {
+      "name": "Meeting Rm. 1 15242"
+    },
+    {
+      "name": "Store 15224"
+    },
+    {
+      "name": "Store 15246"
+    },
+    {
+      "name": "Research 6 15260"
+    },
+    {
+      "name": "Research 7 15258"
+    },
+    {
+      "name": "Research 8 15256"
+    },
+    {
+      "name": "Research 9 15254"
+    },
+    {
+      "name": "Male WC 15234"
+    },
+    {
+      "name": "Female WC 15228"
+    },
+    {
+      "name": "Circulation 15240"
+    },
+    {
+      "name": "riser 15112"
+    },
+    {
+      "name": "Riser 15086"
+    },
+    {
+      "name": "riser 15086"
+    },
+    {
+      "name": "riser 15086"
+    },
+    {
+      "name": "Riser 15288"
+    },
+    {
+      "name": "Clinical Area 2 15150"
+    },
+    {
+      "name": "Riser 15016"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Ventilation Riser 15038"
+    },
+    {
+      "name": "Tea Kitchen/Social 15250"
+    },
+    {
+      "name": "Circulation 15168"
+    },
+    {
+      "name": "Hospital Link 15000"
+    },
+    {
+      "name": "UA WC 1 15128"
+    },
+    {
+      "name": "Empty 15100"
+    },
+    {
+      "name": "Empty 15100"
+    },
+    {
+      "name": "Empty 15100"
+    },
+    {
+      "name": "Research 5 15262"
+    }
+  ],
+  [],
+  []
+]
