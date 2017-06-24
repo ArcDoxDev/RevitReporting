@@ -14,8 +14,8 @@ var app = express();
 
 
 app.set('view engine', 'ejs');
-// listen out on port 3000 for requests
-app.listen(3000);
+// listen out on port 3000 for requests or process.env.PORT if on Cloud9
+app.listen(process.env.PORT);
 
 var modelReview = app.locals.jsdata = require('./js/modelInfo.json');
 var reviewTitles = app.locals.jsdata = require('./js/modelInfoTitles.json');
