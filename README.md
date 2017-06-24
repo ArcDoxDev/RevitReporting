@@ -31,7 +31,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Authors
 
-[Neil Reilly](www.arcdox.com)
+[Neil Reilly](https://www.arcdox.com/)
 
 ## Acknowledgments
 
