@@ -1,0 +1,1076 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>General Model Reports Report</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:#EEE;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	margin-bottom:0;
+	padding-right: 10px;
+	padding-left: 10px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+h1, h3
+{
+	color:#61292B;
+	text-align:center;
+	text-shadow: 1px 1px 2px #333;
+}
+h1
+{
+	text-decoration:underline;
+	margin: 0px;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	background-color: #C6D3EC;
+	border-bottom-style:solid;
+	border-bottom-color:#666;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+/*----------------Table Styling------------------*/
+.tableResult{
+	background:#EEE;
+	width:100%;
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	padding-right:10px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.tableTabBar{
+	background:#EEE;
+	width:100%;
+	border-collapse:collapse;
+}
+.tableTabBar td{
+	padding-top:7px;
+}
+.tableTabs{
+	background:#EEE;
+	font-weight:bold;
+	border-collapse:collapse;
+}
+.tableTabs td{
+	padding:6px;
+	border-left:solid thin #999;
+	border-top:solid thin #999;
+	border-right:solid thin #999;
+	border-top-left-radius:15px;
+}
+.tableTabs a, .tableTabs a:visited{
+	display:block;
+	text-decoration:none;
+}
+.tableTabs td:hover, .tableTabs td:active, .tableTabs td:focus{
+	background:#C6D3EC;
+}
+.tableFailedElems{
+	background:#FFF;
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	border-collapse:collapse;
+	width:100%;
+}
+.tableFailedElems td{
+	border-color:#999;
+	border-style:solid;
+	border-width:thin;
+}
+.tableFailedElems th{
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	background:#CCC;
+}
+.tableFileReport{
+	background:#FFF;
+	width:100%;
+	margin:0px;
+	outline-style:solid;
+	outline-color:#999;
+	outline-width:thin;
+}
+.tableFileReport td{
+	border-style:none;
+	padding:0px;
+	text-align:left;
+}
+.tableFileReport th{
+	border:none;
+	border-bottom:solid;
+	border-bottom-width:thin;
+	border-bottom-color:#999;
+	background:#EEE;
+	text-align:left;
+	padding:3px;
+}
+.tableReportResult{
+	background:#FFF;
+	width:100%;
+	margin:0px;
+}
+.tableReportResult td{
+	border-style:none;
+	padding:3px;
+	text-align:left;
+}
+.tableOverallResult{
+	width:100%;
+	padding-right:15px;
+}
+.tableCheckData{
+	width:100%;
+	border-top-width:thin;
+	border-top-style:solid;
+}
+
+/*------------Individual Column & Cell Styling-------------*/
+td {
+	font-size: small;
+	padding-left:10px;
+	vertical-align:top;
+}
+.cellOverallResult{
+	width:140px;
+	height:110px;
+	padding-left:15px;
+}
+.columnFailedElem{
+	width:250px;
+}
+.columnReportName{
+	width:350px;
+}
+.columnTotal{
+	width:50px;
+	text-align:right;
+}
+.columnDetailResult{
+	width:100px;
+}
+.cellHeading{
+	font-weight:bold;
+}
+.cellTabActive{
+	background:#FFF;
+}
+.cellTabInactive{
+	background:#CCC;
+}
+
+/*--------------Result Indicators--------------------*/
+.failbuttonlarge{
+	width:110px;
+	height:50px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#900;
+	text-align:center;
+	font-size:32px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.passbuttonlarge{
+	width:110px;
+	height:50px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#277448;
+	text-align:center;
+	font-size:32px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.errorbuttonlarge{
+	width:110px;
+	height:45px;
+	margin-left:5px;
+	margin-top:5px;
+	padding-top:5px;
+	background:#D09415;
+	text-align:center;
+	font-size:26px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.reportbuttonlarge{
+	width:110px;
+	height:45px;
+	margin-left:5px;
+	margin-top:5px;
+	padding-top:5px;
+	text-align:center;
+	font-size:26px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+	background-color: #039;
+}
+.failbuttonsmall{
+	width:80px;
+	height:35px;
+	margin-left:0;
+	margin-top:5px;
+	background:#900;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.passbuttonsmall{
+	width:80px;
+	height:35px;
+	margin-left:0;
+	margin-top:5px;
+	background:#277448;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.errorbuttonsmall{
+	width:80px;
+	height:31px;
+	margin-left:0;
+	margin-top:5px;
+	background:#D09415;
+	text-align:center;
+	font-size:18px;
+	padding-top:4px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.reportbuttonsmall{
+	width:80px;
+	height:31px;
+	margin-left:0;
+	margin-top:5px;
+	background:#039;
+	text-align:center;
+	font-size:18px;
+	padding-top:4px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+
+/*------Misc Styles---------------*/
+.divDetail{
+	float:none;
+	clear:both;
+	border-top-style:solid;
+	border-top-color:#666;
+	margin-left:15px;
+	margin-right:15px;
+	padding-bottom:15px;
+}
+.textFailedElemHeader{
+	margin-top:10px;
+	font-weight:bold;
+}
+
+
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>General Model Reports</h1>
+    <h3>Check Result</h3>
+  <!-- end .header --></div>
+    <table class="tableTabBar">
+    <tr>
+      <td>
+        <table class="tableTabs">
+          <tr>
+            <td class="cellTabActive"><a href="rac_basic_sample_project.html">rac_basic_sample_project</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table class="tableOverallResult">
+  <tr>
+  <td class="cellOverallResult">
+        <h4>Overall Result</h4>
+      <div class="reportbuttonlarge">Report</div>
+  </td>
+  <td>
+      <h5>Check Data</h5>
+    <table class="tableCheckData">
+      <tr>
+        <td width="100px"><strong>Revit File:</strong></td>
+        <td>rac_basic_sample_project.rvt</td>
+      </tr>
+        <tr>
+            <td width="100px"><strong>Full Path:</strong></td>
+            <td>C:\Program Files\Autodesk\Revit 2017\Samples\rac_basic_sample_project.rvt</td>
+        </tr>
+      <tr>
+        <td><strong>Date:</strong></td>
+        <td>Monday, June 5, 2017 - 8:54:15 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Config File:</strong></td>
+        <td>http://www.biminteroperabilitytools.com/modelchecker/downloads/General Model Reports.xml</td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+  </table>
+  <div class="divDetail">
+  <h5>Report Detail</h5>
+  <table class="tableResult">
+    <tr>
+      <td class="cellHeading">General Model Reports</td>
+    </tr>
+    <tr>
+      <td>
+    <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="reportbuttonsmall">Report</div></td>
+      <td><p><strong>General</strong></p>
+        <p>General checks to be performed on the overall model</p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Reporting Results</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Report</th>
+            <th scope="col">Result</th>
+            <th scope="col">Element List</th>
+          </tr>
+          <tr>
+            <td class="columnReportName"><strong>Purge</strong><br />Reports the number of elements that can be purged from a Revit model.</td>
+            <td class="columnTotal">250</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Warnings</strong><br />Reports and lists all warnings in a Revit model.</td>
+            <td class="columnTotal">28</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>Sketch of element contains multiple independent loops - splitting it in few independent elements might improve performance.</td>
+                          </tr>                          <tr>
+                            <td>Project contains unused families and/or types. Consider purging them out.</td>
+                          </tr>                          <tr>
+                            <td>Walls overlap. Consider embedding walls, editing their extents or profile to avoid overlapping.</td>
+                          </tr>                          <tr>
+                            <td>Walls overlap. Consider embedding walls, editing their extents or profile to avoid overlapping.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>View has clipping disabled. It causes view to draw too many elements.</td>
+                          </tr>                          <tr>
+                            <td>Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.</td>
+                          </tr>                          <tr>
+                            <td>Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.</td>
+                          </tr>                          <tr>
+                            <td>Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.</td>
+                          </tr>                          <tr>
+                            <td>Interior categories are enabled in a large view. Even though these objects may be obscured and invisible, they still have negative impact on performance.</td>
+                          </tr>                          <tr>
+                            <td>A large view has view detail level set to medium or fine. Generation of extraneous details harms performance. </td>
+                          </tr>                          <tr>
+                            <td>A large view has view detail level set to medium or fine. Generation of extraneous details harms performance. </td>
+                          </tr>                          <tr>
+                            <td>A large view has view detail level set to medium or fine. Generation of extraneous details harms performance. </td>
+                          </tr>                          <tr>
+                            <td>A large view has view detail level set to medium or fine. Generation of extraneous details harms performance. </td>
+                          </tr>                          <tr>
+                            <td>A large view has view detail level set to medium or fine. Generation of extraneous details harms performance. </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>File Size</strong><br />Reports the file size of a Revit model in MB (megabytes).</td>
+            <td class="columnTotal">16.42 MB</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>  <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="reportbuttonsmall">Report</div></td>
+      <td><p><strong>Settings</strong></p>
+        <p>Reporting related project settings.</p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Reporting Results</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Report</th>
+            <th scope="col">Result</th>
+            <th scope="col">Element List</th>
+          </tr>
+          <tr>
+            <td class="columnReportName"><strong>Line Styles</strong><br />Lists all Line Styles in a Revit model.</td>
+            <td class="columnTotal">18</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>&lt;Area Boundary&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Beyond&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Centerline&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Demolished&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Fabric Envelope&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Fabric Sheets&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Hidden&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Overhead&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Room Separation&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Sketch&gt;</td>
+                          </tr>                          <tr>
+                            <td>&lt;Space Separation&gt;</td>
+                          </tr>                          <tr>
+                            <td>Axis of Rotation</td>
+                          </tr>                          <tr>
+                            <td>Hidden Lines</td>
+                          </tr>                          <tr>
+                            <td>Insulation Batting Lines</td>
+                          </tr>                          <tr>
+                            <td>Lines</td>
+                          </tr>                          <tr>
+                            <td>Medium Lines</td>
+                          </tr>                          <tr>
+                            <td>Thin Lines</td>
+                          </tr>                          <tr>
+                            <td>Wide Lines</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Object Styles</strong><br />Lists all non built-in categories and sub-categories in a Revit model.</td>
+            <td class="columnTotal">0</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Design Options</strong><br />Lists all Design Options in a Revit model.</td>
+            <td class="columnTotal">0</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Areas / Spaces Schemes</strong><br />Reports the number of Area Schemes in a Revit model.</td>
+            <td class="columnTotal">2</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Areas / Spaces Computation</strong><br />Reports if a Revit model is set to report areas and volumes or areas only.</td>
+            <td class="columnTotal">Areas and Volumes</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Project Information</strong><br />Lists all parameters and values attached to Project Information for a project except those associated with Revit Extensions (starting with 'Extensions').</td>
+            <td class="columnTotal">15</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>                            <th style="background:#FFF">Value</th>
+                          </tr>
+                          <tr>
+                            <td>Author</td>                            <td>Samuel Macalister</td>
+                          </tr>                          <tr>
+                            <td>Building Name</td>                            <td>Samuel Macalister sample house design</td>
+                          </tr>                          <tr>
+                            <td>Category</td>                            <td></td>
+                          </tr>                          <tr>
+                            <td>Category</td>                            <td></td>
+                          </tr>                          <tr>
+                            <td>Client Name</td>                            <td>Autodesk</td>
+                          </tr>                          <tr>
+                            <td>Design Option</td>                            <td></td>
+                          </tr>                          <tr>
+                            <td>Family Name</td>                            <td></td>
+                          </tr>                          <tr>
+                            <td>Organization Description</td>                            <td></td>
+                          </tr>                          <tr>
+                            <td>Organization Name</td>                            <td>Autodesk</td>
+                          </tr>                          <tr>
+                            <td>Project Address</td>                            <td>Enter address here</td>
+                          </tr>                          <tr>
+                            <td>Project Issue Date</td>                            <td>Issue Date</td>
+                          </tr>                          <tr>
+                            <td>Project Name</td>                            <td>Sample House</td>
+                          </tr>                          <tr>
+                            <td>Project Number</td>                            <td>001-00</td>
+                          </tr>                          <tr>
+                            <td>Project Status</td>                            <td>Project Status</td>
+                          </tr>                          <tr>
+                            <td>Type Name</td>                            <td></td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>  <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="reportbuttonsmall">Report</div></td>
+      <td><p><strong>Elements</strong></p>
+        <p>Reporting related to elements in the project(s).</p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Reporting Results</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Report</th>
+            <th scope="col">Result</th>
+            <th scope="col">Element List</th>
+          </tr>
+          <tr>
+            <td class="columnReportName"><strong>Generic Models</strong><br />Total number and list of generic model families in the model and linked models.</td>
+            <td class="columnTotal">25</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Miele Washing Machine W 5820 WPS : Miele Washing Machine W 5820 WPS</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Miele Induction Cooktop KM 6350 LPT : Miele Induction Cooktop 6350 LPT</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Miele Built-under Dishwasher G 4101 U CS : Miele Built-under Dishwasher G 4101 U CS</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : fire place hang : fire place hang</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : aalto vase - tall : White</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : White Porcelain Plate : Fine China - Plate</td>
+                          </tr>                          <tr>
+                            <td>Generic Models : Water Glass : Water Glass</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Groups</strong><br />Total number and list of groups in the model and linked models.</td>
+            <td class="columnTotal">21</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 2</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 2</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 1</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 2</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 3</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 3</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 3</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 4</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 4</td>
+                          </tr>                          <tr>
+                            <td>Model Groups : Array Group 4</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>In-Place Families</strong><br />Total number and list of in-place families in the model and linked models.</td>
+            <td class="columnTotal">4</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>Furniture Systems : wardrobe1 : wardrobe</td>
+                          </tr>                          <tr>
+                            <td>Furniture Systems : wardrobe2 : wardrobe</td>
+                          </tr>                          <tr>
+                            <td>Mass : water : water</td>
+                          </tr>                          <tr>
+                            <td>Furniture Systems : hood enclosure : hood enclosure</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Mass Elements</strong><br />Total number and list of mass elements in the model and linked models.</td>
+            <td class="columnTotal">1</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>Mass : water : water</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Model Lines</strong><br />Total number and list of model lines in the model and linked models.</td>
+            <td class="columnTotal">0</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>  <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="reportbuttonsmall">Report</div></td>
+      <td><p><strong>Links / Imports</strong></p>
+        <p>Reporting related to linked or imported files in the project(s).</p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Reporting Results</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Report</th>
+            <th scope="col">Result</th>
+            <th scope="col">Element List</th>
+          </tr>
+          <tr>
+            <td class="columnReportName"><strong>Raster Images</strong><br />Lists all raster images in a Revit model.</td>
+            <td class="columnTotal">5</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td>Raster Images : Approach</td>
+                          </tr>                          <tr>
+                            <td>Raster Images : From Yard</td>
+                          </tr>                          <tr>
+                            <td>Raster Images : Kitchen</td>
+                          </tr>                          <tr>
+                            <td>Raster Images : Living Room</td>
+                          </tr>                          <tr>
+                            <td>Raster Images : Section Perspective</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>  <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="reportbuttonsmall">Report</div></td>
+      <td><p><strong>Views / Sheets</strong></p>
+        <p>Reporting related to views and sheets in the project(s).</p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Reporting Results</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Report</th>
+            <th scope="col">Result</th>
+            <th scope="col">Element List</th>
+          </tr>
+          <tr>
+            <td class="columnReportName"><strong>Views Not on Sheets</strong><br />Reports the number of views (not including views that can be placed on more than one sheet, like Schedules and Legends) that are not placed on a sheet.</td>
+            <td class="columnTotal">7</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Views Hidden Elements</strong><br />Lists all views in a Revit model that have permanently hidden elements and the total number of hidden elements.</td>
+            <td class="columnTotal">54</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+              <tr>
+                <td>
+                  <table class="tableFileReport">
+                    <tr>
+                      <td colspan="2">
+                        <table class="tableReportResult">
+                          <tr>
+                            <th style="background:#FFF">#</th>                            <th style="background:#FFF">Name</th>
+                          </tr>
+                          <tr>
+                            <td style="text-align:right">19</td>                            <td>Floor Plan - Level 1</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">14</td>                            <td>Floor Plan - Level 2</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">2</td>                            <td>Detail - Typical Wall Roof Connection</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">2</td>                            <td>Elevation - East</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">2</td>                            <td>Elevation - North</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">2</td>                            <td>3D View - Section Perspective</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Detail - Main Stair Detail</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Detail - Typical Foundation Detail</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Detail - Typical Floor Wall Connection</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Section - Typ. Wall Section</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Section - Stair Section</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Section - Longitudinal Section</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Section - Building Section</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Elevation - South</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Elevation - West</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>Floor Plan - Site</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>3D View - {3D}</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>3D View - Solar Analysis</td>
+                          </tr>                          <tr>
+                            <td style="text-align:right">1</td>                            <td>3D View - Approach</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>  <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="reportbuttonsmall">Report</div></td>
+      <td><p><strong>Worksharing</strong></p>
+        <p></p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Reporting Results</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Report</th>
+            <th scope="col">Result</th>
+            <th scope="col">Element List</th>
+          </tr>
+          <tr>
+            <td class="columnReportName"><strong>Shared Levels and Grids</strong><br />Lists items in a Revit model that are on the 'Shared Levels and Grids' workset that are not levels or grids.  Note that the 'Shared Levels and Grids' workset must have both 'level' and 'grid' (case insensitive) in the name in order to be recognized.</td>
+            <td class="columnTotal">0</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>          <tr>
+            <td class="columnReportName"><strong>Worksets</strong><br />Lists all user worksets for a Revit model or reports '*Not Workshared*' if worksharing is not enabled.</td>
+            <td class="columnTotal">0</td>
+            <td style="padding:0">
+              <table class="tableReportResult">
+
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+      </td>
+    </tr>
+  </table>
+  </div>
+  </div>
+</body>
+</html>

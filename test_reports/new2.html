@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>General Element Checks Report</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:#EEE;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	margin-bottom:0;
+	padding-right: 10px;
+	padding-left: 10px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+h1, h3
+{
+	color:#61292B;
+	text-align:center;
+	text-shadow: 1px 1px 2px #333;
+}
+h1
+{
+	text-decoration:underline;
+	margin: 0px;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	background-color: #C6D3EC;
+	border-bottom-style:solid;
+	border-bottom-color:#666;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+/*----------------Table Styling------------------*/
+.tableResult{
+	background:#EEE;
+	width:100%;
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	padding-right:10px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.tableTabBar{
+	background:#EEE;
+	width:100%;
+	border-collapse:collapse;
+}
+.tableTabBar td{
+	padding-top:7px;
+}
+.tableTabs{
+	background:#EEE;
+	font-weight:bold;
+	border-collapse:collapse;
+}
+.tableTabs td{
+	padding:6px;
+	border-left:solid thin #999;
+	border-top:solid thin #999;
+	border-right:solid thin #999;
+	border-top-left-radius:15px;
+}
+.tableTabs a, .tableTabs a:visited{
+	display:block;
+	text-decoration:none;
+}
+.tableTabs td:hover, .tableTabs td:active, .tableTabs td:focus{
+	background:#C6D3EC;
+}
+.tableFailedElems{
+	background:#FFF;
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	border-collapse:collapse;
+	width:100%;
+}
+.tableFailedElems td{
+	border-color:#999;
+	border-style:solid;
+	border-width:thin;
+}
+.tableFailedElems th{
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	background:#CCC;
+}
+.tableFileReport{
+	background:#FFF;
+	width:100%;
+	margin:0px;
+	outline-style:solid;
+	outline-color:#999;
+	outline-width:thin;
+}
+.tableFileReport td{
+	border-style:none;
+	padding:0px;
+	text-align:left;
+}
+.tableFileReport th{
+	border:none;
+	border-bottom:solid;
+	border-bottom-width:thin;
+	border-bottom-color:#999;
+	background:#EEE;
+	text-align:left;
+	padding:3px;
+}
+.tableReportResult{
+	background:#FFF;
+	width:100%;
+	margin:0px;
+}
+.tableReportResult td{
+	border-style:none;
+	padding:3px;
+	text-align:left;
+}
+.tableOverallResult{
+	width:100%;
+	padding-right:15px;
+}
+.tableCheckData{
+	width:100%;
+	border-top-width:thin;
+	border-top-style:solid;
+}
+
+/*------------Individual Column & Cell Styling-------------*/
+td {
+	font-size: small;
+	padding-left:10px;
+	vertical-align:top;
+}
+.cellOverallResult{
+	width:140px;
+	height:110px;
+	padding-left:15px;
+}
+.columnFailedElem{
+	width:250px;
+}
+.columnReportName{
+	width:350px;
+}
+.columnTotal{
+	width:50px;
+	text-align:right;
+}
+.columnDetailResult{
+	width:100px;
+}
+.cellHeading{
+	font-weight:bold;
+}
+.cellTabActive{
+	background:#FFF;
+}
+.cellTabInactive{
+	background:#CCC;
+}
+
+/*--------------Result Indicators--------------------*/
+.failbuttonlarge{
+	width:110px;
+	height:50px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#900;
+	text-align:center;
+	font-size:32px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.passbuttonlarge{
+	width:110px;
+	height:50px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#277448;
+	text-align:center;
+	font-size:32px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.errorbuttonlarge{
+	width:110px;
+	height:45px;
+	margin-left:5px;
+	margin-top:5px;
+	padding-top:5px;
+	background:#D09415;
+	text-align:center;
+	font-size:26px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.reportbuttonlarge{
+	width:110px;
+	height:45px;
+	margin-left:5px;
+	margin-top:5px;
+	padding-top:5px;
+	text-align:center;
+	font-size:26px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+	background-color: #039;
+}
+.failbuttonsmall{
+	width:80px;
+	height:35px;
+	margin-left:0;
+	margin-top:5px;
+	background:#900;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.passbuttonsmall{
+	width:80px;
+	height:35px;
+	margin-left:0;
+	margin-top:5px;
+	background:#277448;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.errorbuttonsmall{
+	width:80px;
+	height:31px;
+	margin-left:0;
+	margin-top:5px;
+	background:#D09415;
+	text-align:center;
+	font-size:18px;
+	padding-top:4px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.reportbuttonsmall{
+	width:80px;
+	height:31px;
+	margin-left:0;
+	margin-top:5px;
+	background:#039;
+	text-align:center;
+	font-size:18px;
+	padding-top:4px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+
+/*------Misc Styles---------------*/
+.divDetail{
+	float:none;
+	clear:both;
+	border-top-style:solid;
+	border-top-color:#666;
+	margin-left:15px;
+	margin-right:15px;
+	padding-bottom:15px;
+}
+.textFailedElemHeader{
+	margin-top:10px;
+	font-weight:bold;
+}
+
+
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>General Element Checks</h1>
+    <h3>Check Result</h3>
+  <!-- end .header --></div>
+    <table class="tableTabBar">
+    <tr>
+      <td>
+        <table class="tableTabs">
+          <tr>
+            <td class="cellTabActive"><a href="WFP-RLA2017-18-RenderA_nreilly@arcdox.com.html">WFP-RLA2017-18-RenderA_nreilly@arcdox.com</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table class="tableOverallResult">
+  <tr>
+  <td class="cellOverallResult">
+        <h4>Overall Result</h4>
+      <div class="failbuttonlarge">FAIL</div>
+  </td>
+  <td>
+      <h5>Check Data</h5>
+    <table class="tableCheckData">
+      <tr>
+        <td width="100px"><strong>Revit File:</strong></td>
+        <td>WFP-RLA2017-18-RenderA_nreilly@arcdox.com.rvt</td>
+      </tr>
+        <tr>
+            <td width="100px"><strong>Full Path:</strong></td>
+            <td>C:\Users\reiln0ie\Documents\WFP-RLA2017-18-RenderA_nreilly@arcdox.com.rvt</td>
+        </tr>
+      <tr>
+        <td><strong>Date:</strong></td>
+        <td>Monday, June 5, 2017 - 4:58:07 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Config File:</strong></td>
+        <td>http://www.biminteroperabilitytools.com/modelchecker/downloads/General Element Checks.xml</td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+  </table>
+  <div class="divDetail">
+  <h5>Report Detail</h5>
+  <table class="tableResult">
+    <tr>
+      <td class="cellHeading">General Element Checks</td>
+    </tr>
+    <tr>
+      <td>
+    <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="failbuttonsmall">FAIL</div></td>
+      <td><p><strong>Elements - </strong></p>
+        <p></p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Failed Elements</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Element</th>
+            <th scope="col">Failures</th>
+          </tr>
+           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 316289<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Floors : Drive Kerb : Drive Kerb</td>
+            <td>There are in-place families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 316214<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Floors : Patio Kerb : Patio Kerb</td>
+            <td>There are in-place families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 374763<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Furniture : Seat : Seat</td>
+            <td>There are in-place families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 400347<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Mass : Mass 1 : Mass 1</td>
+            <td>There are in-place families in the model and linked models.<br />There are mass elements in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 400419<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Mass : Mass 2 : Mass 2</td>
+            <td>There are in-place families in the model and linked models.<br />There are mass elements in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 400493<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Mass : Mass 3 : Mass 3</td>
+            <td>There are in-place families in the model and linked models.<br />There are mass elements in the model and linked models.</td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+      </td>
+    </tr>
+  </table>
+  </div>
+  </div>
+</body>
+</html>

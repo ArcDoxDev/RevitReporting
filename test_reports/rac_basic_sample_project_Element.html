@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>General Element Checks Report</title>
+<style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background:#EEE;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	margin-bottom:0;
+	padding-right: 10px;
+	padding-left: 10px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+h1, h3
+{
+	color:#61292B;
+	text-align:center;
+	text-shadow: 1px 1px 2px #333;
+}
+h1
+{
+	text-decoration:underline;
+	margin: 0px;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color:#414958;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+
+/* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
+.container {
+	width: 100%;
+	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
+	min-width: 780px;/* a min-width may be desirable to keep this layout from getting too narrow. This keeps line length more readable in the side columns. IE6 does not respect this declaration. */
+	background: #FFF;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
+}
+
+/* ~~the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo~~ */
+.header {
+	background-color: #C6D3EC;
+	border-bottom-style:solid;
+	border-bottom-color:#666;
+}
+
+/* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+/*----------------Table Styling------------------*/
+.tableResult{
+	background:#EEE;
+	width:100%;
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	padding-right:10px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.tableTabBar{
+	background:#EEE;
+	width:100%;
+	border-collapse:collapse;
+}
+.tableTabBar td{
+	padding-top:7px;
+}
+.tableTabs{
+	background:#EEE;
+	font-weight:bold;
+	border-collapse:collapse;
+}
+.tableTabs td{
+	padding:6px;
+	border-left:solid thin #999;
+	border-top:solid thin #999;
+	border-right:solid thin #999;
+	border-top-left-radius:15px;
+}
+.tableTabs a, .tableTabs a:visited{
+	display:block;
+	text-decoration:none;
+}
+.tableTabs td:hover, .tableTabs td:active, .tableTabs td:focus{
+	background:#C6D3EC;
+}
+.tableFailedElems{
+	background:#FFF;
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	border-collapse:collapse;
+	width:100%;
+}
+.tableFailedElems td{
+	border-color:#999;
+	border-style:solid;
+	border-width:thin;
+}
+.tableFailedElems th{
+	border-color:#999;
+	border-width:thin;
+	border-style:solid;
+	background:#CCC;
+}
+.tableFileReport{
+	background:#FFF;
+	width:100%;
+	margin:0px;
+	outline-style:solid;
+	outline-color:#999;
+	outline-width:thin;
+}
+.tableFileReport td{
+	border-style:none;
+	padding:0px;
+	text-align:left;
+}
+.tableFileReport th{
+	border:none;
+	border-bottom:solid;
+	border-bottom-width:thin;
+	border-bottom-color:#999;
+	background:#EEE;
+	text-align:left;
+	padding:3px;
+}
+.tableReportResult{
+	background:#FFF;
+	width:100%;
+	margin:0px;
+}
+.tableReportResult td{
+	border-style:none;
+	padding:3px;
+	text-align:left;
+}
+.tableOverallResult{
+	width:100%;
+	padding-right:15px;
+}
+.tableCheckData{
+	width:100%;
+	border-top-width:thin;
+	border-top-style:solid;
+}
+
+/*------------Individual Column & Cell Styling-------------*/
+td {
+	font-size: small;
+	padding-left:10px;
+	vertical-align:top;
+}
+.cellOverallResult{
+	width:140px;
+	height:110px;
+	padding-left:15px;
+}
+.columnFailedElem{
+	width:250px;
+}
+.columnReportName{
+	width:350px;
+}
+.columnTotal{
+	width:50px;
+	text-align:right;
+}
+.columnDetailResult{
+	width:100px;
+}
+.cellHeading{
+	font-weight:bold;
+}
+.cellTabActive{
+	background:#FFF;
+}
+.cellTabInactive{
+	background:#CCC;
+}
+
+/*--------------Result Indicators--------------------*/
+.failbuttonlarge{
+	width:110px;
+	height:50px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#900;
+	text-align:center;
+	font-size:32px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.passbuttonlarge{
+	width:110px;
+	height:50px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#277448;
+	text-align:center;
+	font-size:32px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.errorbuttonlarge{
+	width:110px;
+	height:45px;
+	margin-left:5px;
+	margin-top:5px;
+	padding-top:5px;
+	background:#D09415;
+	text-align:center;
+	font-size:26px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+}
+.reportbuttonlarge{
+	width:110px;
+	height:45px;
+	margin-left:5px;
+	margin-top:5px;
+	padding-top:5px;
+	text-align:center;
+	font-size:26px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:20px;
+	border-style:solid;
+	border-width:medium;
+	background-color: #039;
+}
+.failbuttonsmall{
+	width:80px;
+	height:35px;
+	margin-left:0;
+	margin-top:5px;
+	background:#900;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.passbuttonsmall{
+	width:80px;
+	height:35px;
+	margin-left:0;
+	margin-top:5px;
+	background:#277448;
+	text-align:center;
+	font-size:24px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.errorbuttonsmall{
+	width:80px;
+	height:31px;
+	margin-left:0;
+	margin-top:5px;
+	background:#D09415;
+	text-align:center;
+	font-size:18px;
+	padding-top:4px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+.reportbuttonsmall{
+	width:80px;
+	height:31px;
+	margin-left:0;
+	margin-top:5px;
+	background:#039;
+	text-align:center;
+	font-size:18px;
+	padding-top:4px;
+	color:#FFF;
+	border-color:#000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:medium;
+}
+
+/*------Misc Styles---------------*/
+.divDetail{
+	float:none;
+	clear:both;
+	border-top-style:solid;
+	border-top-color:#666;
+	margin-left:15px;
+	margin-right:15px;
+	padding-bottom:15px;
+}
+.textFailedElemHeader{
+	margin-top:10px;
+	font-weight:bold;
+}
+
+
+-->
+</style></head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>General Element Checks</h1>
+    <h3>Check Result</h3>
+  <!-- end .header --></div>
+    <table class="tableTabBar">
+    <tr>
+      <td>
+        <table class="tableTabs">
+          <tr>
+            <td class="cellTabActive"><a href="rac_basic_sample_project.html">rac_basic_sample_project</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <table class="tableOverallResult">
+  <tr>
+  <td class="cellOverallResult">
+        <h4>Overall Result</h4>
+      <div class="failbuttonlarge">FAIL</div>
+  </td>
+  <td>
+      <h5>Check Data</h5>
+    <table class="tableCheckData">
+      <tr>
+        <td width="100px"><strong>Revit File:</strong></td>
+        <td>rac_basic_sample_project.rvt</td>
+      </tr>
+        <tr>
+            <td width="100px"><strong>Full Path:</strong></td>
+            <td>C:\Program Files\Autodesk\Revit 2017\Samples\rac_basic_sample_project.rvt</td>
+        </tr>
+      <tr>
+        <td><strong>Date:</strong></td>
+        <td>Monday, June 5, 2017 - 8:53:05 PM</td>
+      </tr>
+      <tr>
+        <td><strong>Config File:</strong></td>
+        <td>http://www.biminteroperabilitytools.com/modelchecker/downloads/General Element Checks.xml</td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+  </table>
+  <div class="divDetail">
+  <h5>Report Detail</h5>
+  <table class="tableResult">
+    <tr>
+      <td class="cellHeading">General Element Checks</td>
+    </tr>
+    <tr>
+      <td>
+    <table class="tableResult">
+    <tr>
+      <td class="columnDetailResult"><div class="failbuttonsmall">FAIL</div></td>
+      <td><p><strong>Elements - </strong></p>
+        <p></p></td>
+    </tr>
+    <tr>
+    <td></td>
+      <td><p class="textFailedElemHeader">Failed Elements</p>
+        <table class="tableFailedElems">
+          <tr>
+            <th scope="col">Element</th>
+            <th scope="col">Failures</th>
+          </tr>
+           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 977410<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Curtain Wall Mullions : Rectangular Mullion : 64 x 128 rectangular</td>
+            <td>Element is a duplicate at the same location and base level.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 976939<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Curtain Wall Mullions : Rectangular Mullion : 64 x 128 rectangular</td>
+            <td>Element is a duplicate at the same location and base level.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 697577<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Furniture Systems : hood enclosure : hood enclosure</td>
+            <td>There are in-place families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 506168<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Furniture Systems : wardrobe1 : wardrobe</td>
+            <td>There are in-place families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 523531<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Furniture Systems : wardrobe2 : wardrobe</td>
+            <td>There are in-place families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 694796<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Miele Built-under Dishwasher G 4101 U CS : Miele Built-under Dishwasher G 4101 U CS</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 680539<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Miele Induction Cooktop KM 6350 LPT : Miele Induction Cooktop 6350 LPT</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 674370<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Miele Washing Machine W 5820 WPS : Miele Washing Machine W 5820 WPS</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 499496<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 938761<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 935747<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 937571<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Walvit_Hung Bowl_604118 W : Walvit</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997119<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997115<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997117<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997069<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997051<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 996881<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997121<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997033<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : Water Glass : Water Glass</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997120<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997118<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997050<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997032<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 994782<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997116<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997114<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 997068<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : White Porcelain Plate : Fine China - Plate</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 993980<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : aalto vase - tall : White</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 701300<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Generic Models : fire place hang : fire place hang</td>
+            <td>There are generic model families in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 628359<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Mass : water : water</td>
+            <td>There are in-place families in the model and linked models.<br />There are mass elements in the model and linked models.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800382<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800213<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800384<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800392<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800390<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800281<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800326<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800330<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800341<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800351<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800349<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800343<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 1</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800352<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 2</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800393<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 2</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 800331<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 2</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 988384<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 3</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 988397<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 3</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 988460<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 3</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 988641<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 4</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 988604<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 4</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>           <tr>
+            <td class="columnFailedElem"><strong>ID:</strong>&nbsp;&nbsp; 988591<br />
+              <strong>Name:</strong>&nbsp;&nbsp; Model Groups : Array Group 4</td>
+            <td>There are groups in the model and linked models. All groups shall be ungrouped for final submittals.</td>
+          </tr>
+        </table>
+        </td>
+    </tr>
+    </table>
+      </td>
+    </tr>
+  </table>
+  </div>
+  </div>
+</body>
+</html>
