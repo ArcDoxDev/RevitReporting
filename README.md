@@ -1,6 +1,14 @@
-# RevitReporting
+# Revit Reporting Web Pages
 
-This app takes Revit model data formated in JSON files produced by Dynamo scripts and presents the data in an easy to digest visual format. 
+This app takes Revit model data formated in JSON files produced by Dynamo scripts and presents the data in an easy to digest visual format.
+
+At it stands the app is very basic. This is very much a learning excerises project that I intend to keep going over the foreseeable future.
+
+## To do
+The app will be changed so that it can take multiple reports from a single project over time and compare\contrast the results.
+The scope of the app will expand to accommodate an entire project and all disciplines\role Revit model reports.
+
+Regular expressions are required to check the naming convensions of materials, Families, Types and other entities. 
 
 ### Prerequisites
 
